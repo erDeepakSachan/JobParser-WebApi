@@ -1,0 +1,11 @@
+D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Domain\bin\Debug\net8.0\JobParser.Domain.deps.json
+D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Domain\bin\Debug\net8.0\JobParser.Domain.dll
+D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Domain\bin\Debug\net8.0\JobParser.Domain.pdb
+D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Domain\obj\Debug\net8.0\JobParser.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Domain\obj\Debug\net8.0\JobParser.Domain.AssemblyInfoInputs.cache
+D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Domain\obj\Debug\net8.0\JobParser.Domain.AssemblyInfo.cs
+D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Domain\obj\Debug\net8.0\JobParser.Domain.csproj.CoreCompileInputs.cache
+D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Domain\obj\Debug\net8.0\JobParser.Domain.dll
+D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Domain\obj\Debug\net8.0\refint\JobParser.Domain.dll
+D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Domain\obj\Debug\net8.0\JobParser.Domain.pdb
+D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Domain\obj\Debug\net8.0\ref\JobParser.Domain.dll

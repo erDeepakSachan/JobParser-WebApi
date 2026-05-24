@@ -1,0 +1,15 @@
+D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Application\obj\Debug\net8.0\JobParser.Application.csproj.AssemblyReference.cache
+D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Application\obj\Debug\net8.0\JobParser.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Application\obj\Debug\net8.0\JobParser.Application.AssemblyInfoInputs.cache
+D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Application\obj\Debug\net8.0\JobParser.Application.AssemblyInfo.cs
+D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Application\obj\Debug\net8.0\JobParser.Application.csproj.CoreCompileInputs.cache
+D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Application\bin\Debug\net8.0\JobParser.Application.deps.json
+D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Application\bin\Debug\net8.0\JobParser.Application.dll
+D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Application\bin\Debug\net8.0\JobParser.Application.pdb
+D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Application\bin\Debug\net8.0\JobParser.Domain.dll
+D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Application\bin\Debug\net8.0\JobParser.Domain.pdb
+D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Application\obj\Debug\net8.0\JobParse.00711044.Up2Date
+D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Application\obj\Debug\net8.0\JobParser.Application.dll
+D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Application\obj\Debug\net8.0\refint\JobParser.Application.dll
+D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Application\obj\Debug\net8.0\JobParser.Application.pdb
+D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Application\obj\Debug\net8.0\ref\JobParser.Application.dll

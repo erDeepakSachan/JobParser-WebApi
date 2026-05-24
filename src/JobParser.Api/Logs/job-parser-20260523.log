@@ -1,0 +1,1158 @@
+2026-05-23 17:02:34.757 +05:30 [INF] Now listening on: https://localhost:7071
+2026-05-23 17:02:34.790 +05:30 [INF] Now listening on: http://localhost:5071
+2026-05-23 17:02:34.836 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-23 17:02:34.857 +05:30 [INF] Hosting environment: Development
+2026-05-23 17:02:34.858 +05:30 [INF] Content root path: D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Api
+2026-05-23 17:02:36.063 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7071/ - null null
+2026-05-23 17:02:36.453 +05:30 [INF] HTTP GET / responded 404 in 13.4640 ms
+2026-05-23 17:02:36.471 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7071/ - 404 0 null 422.8796ms
+2026-05-23 17:02:36.484 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7071/, Response status code: 404
+2026-05-23 17:06:17.007 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7071/swagger - null null
+2026-05-23 17:06:17.064 +05:30 [INF] HTTP GET /swagger responded 301 in 14.3660 ms
+2026-05-23 17:06:17.070 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7071/swagger - 301 0 null 64.6388ms
+2026-05-23 17:06:17.075 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7071/swagger/index.html - null null
+2026-05-23 17:06:17.326 +05:30 [INF] HTTP GET /swagger/index.html responded 200 in 233.3485 ms
+2026-05-23 17:06:17.331 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7071/_framework/aspnetcore-browser-refresh.js - null null
+2026-05-23 17:06:17.330 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7071/swagger/swagger-ui.css - null null
+2026-05-23 17:06:17.360 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7071/swagger/index.html - 200 null text/html;charset=utf-8 285.6978ms
+2026-05-23 17:06:17.330 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7071/swagger/swagger-ui-bundle.js - null null
+2026-05-23 17:06:17.335 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7071/swagger/swagger-ui-standalone-preset.js - null null
+2026-05-23 17:06:17.352 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7071/_vs/browserLink - null null
+2026-05-23 17:06:17.384 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7071/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 52.6306ms
+2026-05-23 17:06:17.474 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2026-05-23 17:06:17.474 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2026-05-23 17:06:17.484 +05:30 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js responded 200 in 77.9478 ms
+2026-05-23 17:06:17.493 +05:30 [INF] HTTP GET /swagger/swagger-ui.css responded 200 in 110.1753 ms
+2026-05-23 17:06:17.509 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7071/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 176.6477ms
+2026-05-23 17:06:17.522 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7071/swagger/swagger-ui.css - 200 152034 text/css 192.2649ms
+2026-05-23 17:06:17.547 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2026-05-23 17:06:17.555 +05:30 [INF] HTTP GET /swagger/swagger-ui-bundle.js responded 200 in 151.7680 ms
+2026-05-23 17:06:17.564 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7071/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 233.9398ms
+2026-05-23 17:06:17.689 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7071/_vs/browserLink - 200 null text/javascript; charset=UTF-8 337.995ms
+2026-05-23 17:06:17.793 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7071/swagger/v1/swagger.json - null null
+2026-05-23 17:06:17.818 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7071/swagger/favicon-32x32.png - null null
+2026-05-23 17:06:17.820 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 17.8112 ms
+2026-05-23 17:06:17.824 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2026-05-23 17:06:17.829 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7071/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 34.9109ms
+2026-05-23 17:06:17.837 +05:30 [INF] HTTP GET /swagger/favicon-32x32.png responded 200 in 12.8864 ms
+2026-05-23 17:06:17.852 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7071/swagger/favicon-32x32.png - 200 628 image/png 34.2155ms
+2026-05-23 17:07:13.221 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7071/api/telegram/webhook - null null
+2026-05-23 17:07:13.287 +05:30 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-05-23 17:07:13.292 +05:30 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-05-23 17:07:13.295 +05:30 [INF] HTTP GET /api/telegram/webhook responded 405 in 42.0409 ms
+2026-05-23 17:07:13.299 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7071/api/telegram/webhook - 405 0 null 82.3585ms
+2026-05-23 17:10:45.810 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7071/ - null null
+2026-05-23 17:10:45.846 +05:30 [INF] HTTP GET / responded 404 in 0.1903 ms
+2026-05-23 17:10:45.853 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7071/ - 404 0 null 44.0785ms
+2026-05-23 17:10:45.860 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7071/, Response status code: 404
+2026-05-23 17:11:01.167 +05:30 [INF] Now listening on: https://localhost:7071
+2026-05-23 17:11:01.194 +05:30 [INF] Now listening on: http://localhost:5071
+2026-05-23 17:11:01.248 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-23 17:11:01.346 +05:30 [INF] Hosting environment: Development
+2026-05-23 17:11:01.364 +05:30 [INF] Content root path: D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Api
+2026-05-23 17:11:01.678 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7071/ - null null
+2026-05-23 17:11:01.822 +05:30 [INF] Executing endpoint 'HTTP: GET /'
+2026-05-23 17:11:01.828 +05:30 [INF] Executed endpoint 'HTTP: GET /'
+2026-05-23 17:11:01.833 +05:30 [INF] HTTP GET / responded 200 in 14.6768 ms
+2026-05-23 17:11:01.844 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7071/ - 200 null application/json; charset=utf-8 169.4652ms
+2026-05-23 17:11:01.866 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7071/favicon.ico - null null
+2026-05-23 17:11:01.880 +05:30 [INF] HTTP GET /favicon.ico responded 404 in 0.8905 ms
+2026-05-23 17:11:01.884 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7071/favicon.ico - 404 0 null 18.1209ms
+2026-05-23 17:11:01.893 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7071/favicon.ico, Response status code: 404
+2026-05-23 17:11:47.660 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7071/swagger/index.html - null null
+2026-05-23 17:11:47.909 +05:30 [INF] HTTP GET /swagger/index.html responded 200 in 210.2635 ms
+2026-05-23 17:11:47.916 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7071/swagger/index.html - 200 null text/html;charset=utf-8 256.0765ms
+2026-05-23 17:11:47.929 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7071/_framework/aspnetcore-browser-refresh.js - null null
+2026-05-23 17:11:47.925 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7071/_vs/browserLink - null null
+2026-05-23 17:11:47.964 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7071/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 33.9818ms
+2026-05-23 17:11:48.079 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7071/_vs/browserLink - 200 null text/javascript; charset=UTF-8 153.9948ms
+2026-05-23 17:11:48.130 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7071/swagger/v1/swagger.json - null null
+2026-05-23 17:11:48.156 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 17.0576 ms
+2026-05-23 17:11:48.162 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7071/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 32.9614ms
+2026-05-23 17:15:24.175 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7071/api/telegram/webhook - null null
+2026-05-23 17:15:24.238 +05:30 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-05-23 17:15:24.247 +05:30 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-05-23 17:15:24.250 +05:30 [INF] HTTP GET /api/telegram/webhook responded 405 in 13.0720 ms
+2026-05-23 17:15:24.254 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7071/api/telegram/webhook - 405 0 null 81.8052ms
+2026-05-23 17:15:31.185 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7071/api/telegram/webhook - null null
+2026-05-23 17:15:31.195 +05:30 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-05-23 17:15:31.199 +05:30 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-05-23 17:15:31.202 +05:30 [INF] HTTP GET /api/telegram/webhook responded 405 in 7.1300 ms
+2026-05-23 17:15:31.209 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7071/api/telegram/webhook - 405 0 null 25.0604ms
+2026-05-23 17:17:34.609 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7071/api/telegram/webhook - application/json 620
+2026-05-23 17:17:34.619 +05:30 [INF] Executing endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 17:17:34.707 +05:30 [INF] Route matched with {action = "Receive", controller = "TelegramWebhook"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Receive(JobParser.Application.DTOs.Telegram.TelegramUpdateDto, System.Threading.CancellationToken) on controller JobParser.Api.Controllers.TelegramWebhookController (JobParser.Api).
+2026-05-23 17:18:07.354 +05:30 [WRN] Unauthorized Telegram webhook call.
+System.UnauthorizedAccessException: Missing Telegram secret token.
+   at JobParser.Api.Controllers.TelegramWebhookController.ValidateTelegramSecret(HttpRequest request) in D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Api\Controllers\TelegramWebhookController.cs:line 60
+   at JobParser.Api.Controllers.TelegramWebhookController.Receive(TelegramUpdateDto update, CancellationToken cancellationToken) in D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Api\Controllers\TelegramWebhookController.cs:line 30
+2026-05-23 17:18:07.536 +05:30 [INF] Executing UnauthorizedObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-05-23 17:18:07.554 +05:30 [INF] Executed action JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api) in 32833.707ms
+2026-05-23 17:18:07.558 +05:30 [INF] Executed endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 17:18:07.561 +05:30 [INF] HTTP POST /api/telegram/webhook responded 401 in 32941.9446 ms
+2026-05-23 17:18:07.575 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7071/api/telegram/webhook - 401 null application/json; charset=utf-8 32965.3803ms
+2026-05-23 17:19:37.875 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7071/api/telegram/webhook - application/json 620
+2026-05-23 17:19:37.886 +05:30 [INF] Executing endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 17:19:37.890 +05:30 [INF] Route matched with {action = "Receive", controller = "TelegramWebhook"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Receive(JobParser.Application.DTOs.Telegram.TelegramUpdateDto, System.Threading.CancellationToken) on controller JobParser.Api.Controllers.TelegramWebhookController (JobParser.Api).
+2026-05-23 17:21:30.967 +05:30 [INF] Processing Telegram update 10001. Length=295
+2026-05-23 17:21:31.019 +05:30 [INF] Start processing HTTP request POST https://api.openai.com/v1/chat/completions
+2026-05-23 17:21:31.041 +05:30 [INF] Sending HTTP request POST https://api.openai.com/v1/chat/completions
+2026-05-23 17:21:35.138 +05:30 [INF] Received HTTP response headers after 4085.6031ms - 200
+2026-05-23 17:21:35.153 +05:30 [INF] End processing HTTP request after 4135.9376ms - 200
+2026-05-23 17:38:26.704 +05:30 [ERR] Telegram webhook processing failed for UpdateId=10001
+MySqlConnector.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 1081
+   at MySqlConnector.Core.ServerSession.SendClearPasswordAsync(String password, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 931
+   at MySqlConnector.Core.ServerSession.SwitchAuthenticationAsync(ConnectionSettings cs, String password, PayloadData payload, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 900
+   at MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, MySqlConnection connection, Int64 startingTimestamp, ILoadBalancer loadBalancer, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 539
+   at MySqlConnector.Core.ServerSession.ConnectAndRedirectAsync(ILogger connectionLogger, ILogger poolLogger, IConnectionPoolMetadata pool, ConnectionSettings cs, ILoadBalancer loadBalancer, MySqlConnection connection, Action`4 logMessage, Int64 startingTimestamp, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 697
+   at MySqlConnector.Core.ServerSession.ConnectAndRedirectAsync(ILogger connectionLogger, ILogger poolLogger, IConnectionPoolMetadata pool, ConnectionSettings cs, ILoadBalancer loadBalancer, MySqlConnection connection, Action`4 logMessage, Int64 startingTimestamp, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 702
+   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, Int64 startingTimestamp, Int32 timeoutMilliseconds, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 116
+   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, Int64 startingTimestamp, Int32 timeoutMilliseconds, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 150
+   at MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, Int64 startingTimestamp, Activity activity, Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 1092
+   at MySqlConnector.MySqlConnection.OpenAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 567
+   at JobParser.Infrastructure.Persistence.JobDetailsRepository.InsertManyAsync(IEnumerable`1 jobs, CancellationToken cancellationToken) in D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Infrastructure\Persistence\JobDetailsRepository.cs:line 28
+   at JobParser.Infrastructure.Persistence.JobDetailsRepository.InsertManyAsync(IEnumerable`1 jobs, CancellationToken cancellationToken) in D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Infrastructure\Persistence\JobDetailsRepository.cs:line 70
+   at JobParser.Application.Services.TelegramWebhookProcessor.ProcessAsync(TelegramUpdateDto update, CancellationToken cancellationToken) in D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Application\Services\TelegramWebhookProcessor.cs:line 58
+   at JobParser.Api.Controllers.TelegramWebhookController.Receive(TelegramUpdateDto update, CancellationToken cancellationToken) in D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Api\Controllers\TelegramWebhookController.cs:line 35
+2026-05-23 17:38:26.852 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7071/api/telegram/webhook - application/json 620
+2026-05-23 17:38:26.928 +05:30 [INF] Executing endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 17:38:26.928 +05:30 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-05-23 17:38:26.933 +05:30 [INF] Route matched with {action = "Receive", controller = "TelegramWebhook"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Receive(JobParser.Application.DTOs.Telegram.TelegramUpdateDto, System.Threading.CancellationToken) on controller JobParser.Api.Controllers.TelegramWebhookController (JobParser.Api).
+2026-05-23 17:38:26.941 +05:30 [INF] Executed action JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api) in 1129036.762ms
+2026-05-23 17:38:26.951 +05:30 [INF] Executed endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 17:38:28.266 +05:30 [INF] Processing Telegram update 10001. Length=295
+2026-05-23 17:38:28.274 +05:30 [ERR] HTTP POST /api/telegram/webhook responded 500 in 1130377.7652 ms
+2026-05-23 17:38:28.276 +05:30 [INF] Start processing HTTP request POST https://api.openai.com/v1/chat/completions
+2026-05-23 17:38:28.286 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7071/api/telegram/webhook - 500 null application/json; charset=utf-8 1130404.302ms
+2026-05-23 17:38:28.286 +05:30 [INF] Sending HTTP request POST https://api.openai.com/v1/chat/completions
+2026-05-23 17:38:33.025 +05:30 [INF] Received HTTP response headers after 4718.0988ms - 200
+2026-05-23 17:38:33.030 +05:30 [INF] End processing HTTP request after 4754.6029ms - 200
+2026-05-23 17:38:33.699 +05:30 [ERR] Telegram webhook processing failed for UpdateId=10001
+MySqlConnector.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 1081
+   at MySqlConnector.Core.ServerSession.SendClearPasswordAsync(String password, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 931
+   at MySqlConnector.Core.ServerSession.SwitchAuthenticationAsync(ConnectionSettings cs, String password, PayloadData payload, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 900
+   at MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, MySqlConnection connection, Int64 startingTimestamp, ILoadBalancer loadBalancer, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 539
+   at MySqlConnector.Core.ServerSession.ConnectAndRedirectAsync(ILogger connectionLogger, ILogger poolLogger, IConnectionPoolMetadata pool, ConnectionSettings cs, ILoadBalancer loadBalancer, MySqlConnection connection, Action`4 logMessage, Int64 startingTimestamp, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 697
+   at MySqlConnector.Core.ServerSession.ConnectAndRedirectAsync(ILogger connectionLogger, ILogger poolLogger, IConnectionPoolMetadata pool, ConnectionSettings cs, ILoadBalancer loadBalancer, MySqlConnection connection, Action`4 logMessage, Int64 startingTimestamp, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 702
+   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, Int64 startingTimestamp, Int32 timeoutMilliseconds, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 116
+   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, Int64 startingTimestamp, Int32 timeoutMilliseconds, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 150
+   at MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, Int64 startingTimestamp, Activity activity, Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 1092
+   at MySqlConnector.MySqlConnection.OpenAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 567
+   at JobParser.Infrastructure.Persistence.JobDetailsRepository.InsertManyAsync(IEnumerable`1 jobs, CancellationToken cancellationToken) in D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Infrastructure\Persistence\JobDetailsRepository.cs:line 28
+   at JobParser.Infrastructure.Persistence.JobDetailsRepository.InsertManyAsync(IEnumerable`1 jobs, CancellationToken cancellationToken) in D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Infrastructure\Persistence\JobDetailsRepository.cs:line 70
+   at JobParser.Application.Services.TelegramWebhookProcessor.ProcessAsync(TelegramUpdateDto update, CancellationToken cancellationToken) in D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Application\Services\TelegramWebhookProcessor.cs:line 58
+   at JobParser.Api.Controllers.TelegramWebhookController.Receive(TelegramUpdateDto update, CancellationToken cancellationToken) in D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Api\Controllers\TelegramWebhookController.cs:line 35
+2026-05-23 17:38:33.723 +05:30 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-05-23 17:38:33.728 +05:30 [INF] Executed action JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api) in 6784.3483ms
+2026-05-23 17:38:33.733 +05:30 [INF] Executed endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 17:38:33.740 +05:30 [ERR] HTTP POST /api/telegram/webhook responded 500 in 6813.9648 ms
+2026-05-23 17:38:33.747 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7071/api/telegram/webhook - 500 null application/json; charset=utf-8 6897.0773ms
+2026-05-23 17:38:43.101 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7071/api/telegram/webhook - application/json 620
+2026-05-23 17:38:43.108 +05:30 [INF] Executing endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 17:38:43.111 +05:30 [INF] Route matched with {action = "Receive", controller = "TelegramWebhook"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Receive(JobParser.Application.DTOs.Telegram.TelegramUpdateDto, System.Threading.CancellationToken) on controller JobParser.Api.Controllers.TelegramWebhookController (JobParser.Api).
+2026-05-23 17:38:53.799 +05:30 [INF] Processing Telegram update 10001. Length=295
+2026-05-23 17:38:53.802 +05:30 [INF] Start processing HTTP request POST https://api.openai.com/v1/chat/completions
+2026-05-23 17:38:53.805 +05:30 [INF] Sending HTTP request POST https://api.openai.com/v1/chat/completions
+2026-05-23 17:38:57.281 +05:30 [INF] Received HTTP response headers after 3472.8541ms - 200
+2026-05-23 17:38:57.288 +05:30 [INF] End processing HTTP request after 3486.003ms - 200
+2026-05-23 17:39:11.052 +05:30 [ERR] Telegram webhook processing failed for UpdateId=10001
+MySqlConnector.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 1081
+   at MySqlConnector.Core.ServerSession.SendClearPasswordAsync(String password, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 931
+   at MySqlConnector.Core.ServerSession.SwitchAuthenticationAsync(ConnectionSettings cs, String password, PayloadData payload, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 900
+   at MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, MySqlConnection connection, Int64 startingTimestamp, ILoadBalancer loadBalancer, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 539
+   at MySqlConnector.Core.ServerSession.ConnectAndRedirectAsync(ILogger connectionLogger, ILogger poolLogger, IConnectionPoolMetadata pool, ConnectionSettings cs, ILoadBalancer loadBalancer, MySqlConnection connection, Action`4 logMessage, Int64 startingTimestamp, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 697
+   at MySqlConnector.Core.ServerSession.ConnectAndRedirectAsync(ILogger connectionLogger, ILogger poolLogger, IConnectionPoolMetadata pool, ConnectionSettings cs, ILoadBalancer loadBalancer, MySqlConnection connection, Action`4 logMessage, Int64 startingTimestamp, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 702
+   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, Int64 startingTimestamp, Int32 timeoutMilliseconds, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 116
+   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, Int64 startingTimestamp, Int32 timeoutMilliseconds, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 150
+   at MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, Int64 startingTimestamp, Activity activity, Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 1092
+   at MySqlConnector.MySqlConnection.OpenAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 567
+   at JobParser.Infrastructure.Persistence.JobDetailsRepository.InsertManyAsync(IEnumerable`1 jobs, CancellationToken cancellationToken) in D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Infrastructure\Persistence\JobDetailsRepository.cs:line 28
+   at JobParser.Infrastructure.Persistence.JobDetailsRepository.InsertManyAsync(IEnumerable`1 jobs, CancellationToken cancellationToken) in D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Infrastructure\Persistence\JobDetailsRepository.cs:line 70
+   at JobParser.Application.Services.TelegramWebhookProcessor.ProcessAsync(TelegramUpdateDto update, CancellationToken cancellationToken) in D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Application\Services\TelegramWebhookProcessor.cs:line 58
+   at JobParser.Api.Controllers.TelegramWebhookController.Receive(TelegramUpdateDto update, CancellationToken cancellationToken) in D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Api\Controllers\TelegramWebhookController.cs:line 35
+2026-05-23 17:39:11.075 +05:30 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-05-23 17:39:11.081 +05:30 [INF] Executed action JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api) in 27965.1401ms
+2026-05-23 17:39:11.089 +05:30 [INF] Executed endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 17:39:11.093 +05:30 [ERR] HTTP POST /api/telegram/webhook responded 500 in 27985.3466 ms
+2026-05-23 17:39:11.102 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7071/api/telegram/webhook - 500 null application/json; charset=utf-8 27999.8706ms
+2026-05-23 17:41:26.025 +05:30 [INF] Now listening on: https://localhost:7071
+2026-05-23 17:41:26.145 +05:30 [INF] Now listening on: http://localhost:5071
+2026-05-23 17:41:26.271 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-23 17:41:26.275 +05:30 [INF] Hosting environment: Development
+2026-05-23 17:41:26.279 +05:30 [INF] Content root path: D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Api
+2026-05-23 17:41:27.605 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7071/ - null null
+2026-05-23 17:41:27.964 +05:30 [INF] Executing endpoint 'HTTP: GET /'
+2026-05-23 17:41:27.984 +05:30 [INF] Executed endpoint 'HTTP: GET /'
+2026-05-23 17:41:27.993 +05:30 [INF] HTTP GET / responded 200 in 45.5019 ms
+2026-05-23 17:41:28.012 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7071/ - 200 null application/json; charset=utf-8 422.4003ms
+2026-05-23 17:41:28.062 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7071/favicon.ico - null null
+2026-05-23 17:41:28.085 +05:30 [INF] HTTP GET /favicon.ico responded 404 in 2.3783 ms
+2026-05-23 17:41:28.093 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7071/favicon.ico - 404 0 null 31.4598ms
+2026-05-23 17:41:28.110 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7071/favicon.ico, Response status code: 404
+2026-05-23 17:41:44.430 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7071/api/telegram/webhook - application/json 620
+2026-05-23 17:41:44.442 +05:30 [INF] Executing endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 17:41:44.491 +05:30 [INF] Route matched with {action = "Receive", controller = "TelegramWebhook"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Receive(JobParser.Application.DTOs.Telegram.TelegramUpdateDto, System.Threading.CancellationToken) on controller JobParser.Api.Controllers.TelegramWebhookController (JobParser.Api).
+2026-05-23 17:42:04.283 +05:30 [INF] Processing Telegram update 10001. Length=295
+2026-05-23 17:42:04.323 +05:30 [INF] Start processing HTTP request POST https://api.openai.com/v1/chat/completions
+2026-05-23 17:42:04.340 +05:30 [INF] Sending HTTP request POST https://api.openai.com/v1/chat/completions
+2026-05-23 17:42:08.220 +05:30 [INF] Received HTTP response headers after 3873.7291ms - 200
+2026-05-23 17:42:08.228 +05:30 [INF] End processing HTTP request after 3911.5381ms - 200
+2026-05-23 17:42:08.959 +05:30 [ERR] Failed to insert jobs into MySQL.
+MySqlConnector.MySqlException (0x80004005): Unknown column 'JobLocation' in 'field list'
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 1081
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 37
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 131
+   at MySqlConnector.MySqlDataReader.InitAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 487
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 56
+   at MySqlConnector.MySqlCommand.ExecuteNonQueryAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 309
+   at JobParser.Infrastructure.Persistence.JobDetailsRepository.InsertManyAsync(IEnumerable`1 jobs, CancellationToken cancellationToken) in D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Infrastructure\Persistence\JobDetailsRepository.cs:line 59
+   at JobParser.Infrastructure.Persistence.JobDetailsRepository.InsertManyAsync(IEnumerable`1 jobs, CancellationToken cancellationToken) in D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Infrastructure\Persistence\JobDetailsRepository.cs:line 59
+2026-05-23 17:42:44.143 +05:30 [ERR] Telegram webhook processing failed for UpdateId=10001
+MySqlConnector.MySqlException (0x80004005): Unknown column 'JobLocation' in 'field list'
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 1081
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 37
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 131
+   at MySqlConnector.MySqlDataReader.InitAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 487
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 56
+   at MySqlConnector.MySqlCommand.ExecuteNonQueryAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 309
+   at JobParser.Infrastructure.Persistence.JobDetailsRepository.InsertManyAsync(IEnumerable`1 jobs, CancellationToken cancellationToken) in D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Infrastructure\Persistence\JobDetailsRepository.cs:line 59
+   at JobParser.Infrastructure.Persistence.JobDetailsRepository.InsertManyAsync(IEnumerable`1 jobs, CancellationToken cancellationToken) in D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Infrastructure\Persistence\JobDetailsRepository.cs:line 59
+   at JobParser.Infrastructure.Persistence.JobDetailsRepository.InsertManyAsync(IEnumerable`1 jobs, CancellationToken cancellationToken) in D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Infrastructure\Persistence\JobDetailsRepository.cs:line 69
+   at JobParser.Infrastructure.Persistence.JobDetailsRepository.InsertManyAsync(IEnumerable`1 jobs, CancellationToken cancellationToken) in D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Infrastructure\Persistence\JobDetailsRepository.cs:line 70
+   at JobParser.Infrastructure.Persistence.JobDetailsRepository.InsertManyAsync(IEnumerable`1 jobs, CancellationToken cancellationToken) in D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Infrastructure\Persistence\JobDetailsRepository.cs:line 70
+   at JobParser.Application.Services.TelegramWebhookProcessor.ProcessAsync(TelegramUpdateDto update, CancellationToken cancellationToken) in D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Application\Services\TelegramWebhookProcessor.cs:line 58
+   at JobParser.Api.Controllers.TelegramWebhookController.Receive(TelegramUpdateDto update, CancellationToken cancellationToken) in D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Api\Controllers\TelegramWebhookController.cs:line 35
+2026-05-23 17:42:44.220 +05:30 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-05-23 17:42:44.231 +05:30 [INF] Executed action JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api) in 59729.8444ms
+2026-05-23 17:42:44.235 +05:30 [INF] Executed endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 17:42:44.240 +05:30 [ERR] HTTP POST /api/telegram/webhook responded 500 in 59798.5453 ms
+2026-05-23 17:42:44.244 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7071/api/telegram/webhook - 500 null application/json; charset=utf-8 59813.9564ms
+2026-05-23 17:42:57.641 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7071/api/telegram/webhook - application/json 620
+2026-05-23 17:42:57.659 +05:30 [INF] Executing endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 17:42:57.662 +05:30 [INF] Route matched with {action = "Receive", controller = "TelegramWebhook"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Receive(JobParser.Application.DTOs.Telegram.TelegramUpdateDto, System.Threading.CancellationToken) on controller JobParser.Api.Controllers.TelegramWebhookController (JobParser.Api).
+2026-05-23 17:43:16.413 +05:30 [INF] Processing Telegram update 10001. Length=295
+2026-05-23 17:43:30.260 +05:30 [INF] Start processing HTTP request POST https://api.openai.com/v1/chat/completions
+2026-05-23 17:43:30.263 +05:30 [INF] Sending HTTP request POST https://api.openai.com/v1/chat/completions
+2026-05-23 17:43:34.389 +05:30 [INF] Received HTTP response headers after 4124.674ms - 200
+2026-05-23 17:43:34.393 +05:30 [INF] End processing HTTP request after 4132.6753ms - 200
+2026-05-23 17:44:01.588 +05:30 [ERR] Failed to insert jobs into MySQL.
+MySqlConnector.MySqlException (0x80004005): Unknown column 'JobLocation' in 'field list'
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 1081
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 37
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 131
+   at MySqlConnector.MySqlDataReader.InitAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 487
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 56
+   at MySqlConnector.MySqlCommand.ExecuteNonQueryAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 309
+   at JobParser.Infrastructure.Persistence.JobDetailsRepository.InsertManyAsync(IEnumerable`1 jobs, CancellationToken cancellationToken) in D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Infrastructure\Persistence\JobDetailsRepository.cs:line 59
+   at JobParser.Infrastructure.Persistence.JobDetailsRepository.InsertManyAsync(IEnumerable`1 jobs, CancellationToken cancellationToken) in D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Infrastructure\Persistence\JobDetailsRepository.cs:line 59
+2026-05-23 17:44:01.683 +05:30 [ERR] Telegram webhook processing failed for UpdateId=10001
+MySqlConnector.MySqlException (0x80004005): Unknown column 'JobLocation' in 'field list'
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 1081
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 37
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 131
+   at MySqlConnector.MySqlDataReader.InitAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 487
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 56
+   at MySqlConnector.MySqlCommand.ExecuteNonQueryAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 309
+   at JobParser.Infrastructure.Persistence.JobDetailsRepository.InsertManyAsync(IEnumerable`1 jobs, CancellationToken cancellationToken) in D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Infrastructure\Persistence\JobDetailsRepository.cs:line 59
+   at JobParser.Infrastructure.Persistence.JobDetailsRepository.InsertManyAsync(IEnumerable`1 jobs, CancellationToken cancellationToken) in D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Infrastructure\Persistence\JobDetailsRepository.cs:line 59
+   at JobParser.Infrastructure.Persistence.JobDetailsRepository.InsertManyAsync(IEnumerable`1 jobs, CancellationToken cancellationToken) in D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Infrastructure\Persistence\JobDetailsRepository.cs:line 69
+   at JobParser.Infrastructure.Persistence.JobDetailsRepository.InsertManyAsync(IEnumerable`1 jobs, CancellationToken cancellationToken) in D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Infrastructure\Persistence\JobDetailsRepository.cs:line 70
+   at JobParser.Infrastructure.Persistence.JobDetailsRepository.InsertManyAsync(IEnumerable`1 jobs, CancellationToken cancellationToken) in D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Infrastructure\Persistence\JobDetailsRepository.cs:line 70
+   at JobParser.Application.Services.TelegramWebhookProcessor.ProcessAsync(TelegramUpdateDto update, CancellationToken cancellationToken) in D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Application\Services\TelegramWebhookProcessor.cs:line 58
+   at JobParser.Api.Controllers.TelegramWebhookController.Receive(TelegramUpdateDto update, CancellationToken cancellationToken) in D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Api\Controllers\TelegramWebhookController.cs:line 35
+2026-05-23 17:44:01.704 +05:30 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-05-23 17:44:01.707 +05:30 [INF] Executed action JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api) in 64041.4024ms
+2026-05-23 17:44:01.713 +05:30 [INF] Executed endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 17:44:01.715 +05:30 [ERR] HTTP POST /api/telegram/webhook responded 500 in 64055.3715 ms
+2026-05-23 17:44:01.718 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7071/api/telegram/webhook - 500 null application/json; charset=utf-8 64077.5164ms
+2026-05-23 17:44:42.921 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7071/api/telegram/webhook - application/json 620
+2026-05-23 17:44:42.929 +05:30 [INF] Executing endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 17:44:42.931 +05:30 [INF] Route matched with {action = "Receive", controller = "TelegramWebhook"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Receive(JobParser.Application.DTOs.Telegram.TelegramUpdateDto, System.Threading.CancellationToken) on controller JobParser.Api.Controllers.TelegramWebhookController (JobParser.Api).
+2026-05-23 17:45:14.921 +05:30 [INF] Processing Telegram update 10001. Length=295
+2026-05-23 17:45:18.396 +05:30 [INF] Start processing HTTP request POST https://api.openai.com/v1/chat/completions
+2026-05-23 17:45:18.399 +05:30 [INF] Sending HTTP request POST https://api.openai.com/v1/chat/completions
+2026-05-23 17:45:21.688 +05:30 [INF] Received HTTP response headers after 3286.599ms - 200
+2026-05-23 17:45:21.691 +05:30 [INF] End processing HTTP request after 3294.5107ms - 200
+2026-05-23 17:54:48.773 +05:30 [INF] Now listening on: https://localhost:7071
+2026-05-23 17:54:48.885 +05:30 [INF] Now listening on: http://localhost:5071
+2026-05-23 17:54:49.315 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-23 17:54:49.318 +05:30 [INF] Hosting environment: Development
+2026-05-23 17:54:49.321 +05:30 [INF] Content root path: D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Api
+2026-05-23 17:54:50.515 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7071/ - null null
+2026-05-23 17:54:50.852 +05:30 [INF] Executing endpoint 'HTTP: GET /'
+2026-05-23 17:54:50.868 +05:30 [INF] Executed endpoint 'HTTP: GET /'
+2026-05-23 17:54:50.876 +05:30 [INF] HTTP GET / responded 200 in 39.3848 ms
+2026-05-23 17:54:50.895 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7071/ - 200 null application/json; charset=utf-8 395.6179ms
+2026-05-23 17:54:51.001 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7071/favicon.ico - null null
+2026-05-23 17:54:51.016 +05:30 [INF] HTTP GET /favicon.ico responded 404 in 2.1762 ms
+2026-05-23 17:54:51.023 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7071/favicon.ico - 404 0 null 22.6968ms
+2026-05-23 17:54:51.035 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7071/favicon.ico, Response status code: 404
+2026-05-23 18:07:07.733 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7071/api/telegram/webhook - application/json 620
+2026-05-23 18:07:07.893 +05:30 [INF] Executing endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 18:07:08.158 +05:30 [INF] Route matched with {action = "Receive", controller = "TelegramWebhook"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Receive(JobParser.Application.DTOs.Telegram.TelegramUpdateDto, System.Threading.CancellationToken) on controller JobParser.Api.Controllers.TelegramWebhookController (JobParser.Api).
+2026-05-23 18:07:36.000 +05:30 [INF] Processing Telegram update 10001. Length=295
+2026-05-23 18:07:36.115 +05:30 [INF] Start processing HTTP request POST https://api.openai.com/v1/chat/completions
+2026-05-23 18:07:36.155 +05:30 [INF] Sending HTTP request POST https://api.openai.com/v1/chat/completions
+2026-05-23 18:07:39.521 +05:30 [INF] Received HTTP response headers after 3358.2706ms - 200
+2026-05-23 18:07:39.533 +05:30 [INF] End processing HTTP request after 3426.9051ms - 200
+2026-05-23 18:07:50.998 +05:30 [INF] Update 10001 processed. Parsed=1, Inserted=0
+2026-05-23 18:07:51.006 +05:30 [INF] Webhook response for UpdateId=10001: {"Success":true,"UpdateId":10001,"ParsedJobs":1,"InsertedJobs":0,"Message":"Processed successfully.","Jobs":[{"CompanyName":"STARION INDIA PVT. LTD.","JobLocation":"Greater Noida","Qualification":"10th","Department":null,"IsITJob":false,"InterviewDate":"2026-05-22","InterviewTime":"08:00 AM","InterviewLocation":"Starion India PVT LTD pilot 92 Ecotech 10 Greater Noida","ContactNumber":"9650495004","Email":null,"OtherDetail":"भर्ती है STARION INDIA PVT. LTD. कंपनी में !!\n\nBOYS & GIRLS दोनों के लिए\n\nवर्क लोकेशन:\nhttps://maps.app.goo.gl/YLXBUCksLaH7BYUGA\n\nDEEPAK Bhati\n9650495004\n9311156774\n\nEducation Required:\n10th\n\nADD:- Starion India PVT LTD pilot 92 Ecotech 10 Greater Noida","$type":"ParsedJobDto"}],"$type":"WebhookProcessingResultDto"}
+2026-05-23 18:07:51.044 +05:30 [INF] Executing OkObjectResult, writing value of type 'JobParser.Application.DTOs.Jobs.WebhookProcessingResultDto'.
+2026-05-23 18:07:51.069 +05:30 [INF] Executed action JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api) in 42895.5826ms
+2026-05-23 18:07:51.072 +05:30 [INF] Executed endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 18:07:51.078 +05:30 [INF] HTTP POST /api/telegram/webhook responded 200 in 43212.4827 ms
+2026-05-23 18:07:51.084 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7071/api/telegram/webhook - 200 null application/json; charset=utf-8 43381.3329ms
+2026-05-23 19:13:30.411 +05:30 [INF] Now listening on: https://localhost:7071
+2026-05-23 19:13:30.491 +05:30 [INF] Now listening on: http://localhost:5071
+2026-05-23 19:13:30.602 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-23 19:13:30.744 +05:30 [INF] Hosting environment: Development
+2026-05-23 19:13:30.779 +05:30 [INF] Content root path: D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Api
+2026-05-23 19:13:31.374 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7071/ - null null
+2026-05-23 19:13:31.800 +05:30 [INF] Executing endpoint 'HTTP: GET /'
+2026-05-23 19:13:31.815 +05:30 [INF] Executed endpoint 'HTTP: GET /'
+2026-05-23 19:13:31.834 +05:30 [INF] HTTP GET / responded 200 in 43.9269 ms
+2026-05-23 19:13:31.872 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7071/ - 200 null application/json; charset=utf-8 519.9754ms
+2026-05-23 19:13:31.922 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7071/favicon.ico - null null
+2026-05-23 19:13:31.938 +05:30 [INF] HTTP GET /favicon.ico responded 404 in 0.6345 ms
+2026-05-23 19:13:31.970 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7071/favicon.ico - 404 0 null 47.2913ms
+2026-05-23 19:13:31.994 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7071/favicon.ico, Response status code: 404
+2026-05-23 19:13:47.236 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7071/swagger - null null
+2026-05-23 19:13:47.255 +05:30 [INF] HTTP GET /swagger responded 301 in 2.4900 ms
+2026-05-23 19:13:47.261 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7071/swagger - 301 0 null 26.9017ms
+2026-05-23 19:13:47.268 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7071/swagger/index.html - null null
+2026-05-23 19:13:47.436 +05:30 [INF] HTTP GET /swagger/index.html responded 200 in 153.2841 ms
+2026-05-23 19:13:47.440 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7071/swagger/swagger-ui.css - null null
+2026-05-23 19:13:47.445 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7071/_framework/aspnetcore-browser-refresh.js - null null
+2026-05-23 19:13:47.444 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7071/swagger/swagger-ui-standalone-preset.js - null null
+2026-05-23 19:13:47.445 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7071/_vs/browserLink - null null
+2026-05-23 19:13:47.479 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7071/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 33.8686ms
+2026-05-23 19:13:47.448 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7071/swagger/index.html - 200 null text/html;charset=utf-8 180.591ms
+2026-05-23 19:13:47.445 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7071/swagger/swagger-ui-bundle.js - null null
+2026-05-23 19:13:47.579 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2026-05-23 19:13:47.579 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2026-05-23 19:13:47.605 +05:30 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js responded 200 in 128.0175 ms
+2026-05-23 19:13:47.611 +05:30 [INF] HTTP GET /swagger/swagger-ui.css responded 200 in 148.3931 ms
+2026-05-23 19:13:47.622 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7071/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 178.1807ms
+2026-05-23 19:13:47.630 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7071/swagger/swagger-ui.css - 200 152034 text/css 191.3705ms
+2026-05-23 19:13:47.696 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2026-05-23 19:13:47.705 +05:30 [INF] HTTP GET /swagger/swagger-ui-bundle.js responded 200 in 110.8948 ms
+2026-05-23 19:13:47.706 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7071/_vs/browserLink - 200 null text/javascript; charset=UTF-8 260.9278ms
+2026-05-23 19:13:47.710 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7071/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 266.6643ms
+2026-05-23 19:13:47.880 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7071/swagger/v1/swagger.json - null null
+2026-05-23 19:13:47.906 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 17.1915 ms
+2026-05-23 19:13:47.909 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7071/swagger/favicon-32x32.png - null null
+2026-05-23 19:13:47.914 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7071/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 33.8252ms
+2026-05-23 19:13:47.920 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2026-05-23 19:13:47.935 +05:30 [INF] HTTP GET /swagger/favicon-32x32.png responded 200 in 15.3679 ms
+2026-05-23 19:13:47.941 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7071/swagger/favicon-32x32.png - 200 628 image/png 32.2019ms
+2026-05-23 20:41:15.627 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7071/ - null null
+2026-05-23 20:41:15.790 +05:30 [INF] Executing endpoint 'HTTP: GET /'
+2026-05-23 20:41:15.825 +05:30 [INF] Executed endpoint 'HTTP: GET /'
+2026-05-23 20:41:15.832 +05:30 [INF] HTTP GET / responded 200 in 61.8164 ms
+2026-05-23 20:41:15.840 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7071/ - 200 null application/json; charset=utf-8 250.1978ms
+2026-05-23 20:42:07.096 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7071/api/telegram/webhook - application/json 234
+2026-05-23 20:42:07.157 +05:30 [INF] Executing endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 20:42:07.605 +05:30 [INF] Route matched with {action = "Receive", controller = "TelegramWebhook"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Receive(JobParser.Application.DTOs.Telegram.TelegramUpdateDto, System.Threading.CancellationToken) on controller JobParser.Api.Controllers.TelegramWebhookController (JobParser.Api).
+2026-05-23 20:42:08.269 +05:30 [WRN] Unauthorized Telegram webhook call.
+System.UnauthorizedAccessException: Missing Telegram secret token.
+   at JobParser.Api.Controllers.TelegramWebhookController.ValidateTelegramSecret(HttpRequest request) in D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Api\Controllers\TelegramWebhookController.cs:line 60
+   at JobParser.Api.Controllers.TelegramWebhookController.Receive(TelegramUpdateDto update, CancellationToken cancellationToken) in D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Api\Controllers\TelegramWebhookController.cs:line 30
+2026-05-23 20:42:08.428 +05:30 [INF] Executing UnauthorizedObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-05-23 20:42:08.499 +05:30 [INF] Executed action JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api) in 841.5695ms
+2026-05-23 20:42:08.554 +05:30 [INF] Executed endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 20:42:08.563 +05:30 [INF] HTTP POST /api/telegram/webhook responded 401 in 1405.8340 ms
+2026-05-23 20:42:08.588 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7071/api/telegram/webhook - 401 null application/json; charset=utf-8 1492.2035ms
+2026-05-23 20:55:37.383 +05:30 [INF] Now listening on: https://localhost:7071
+2026-05-23 20:55:37.537 +05:30 [INF] Now listening on: http://localhost:5071
+2026-05-23 20:55:38.889 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-23 20:55:39.636 +05:30 [INF] Hosting environment: Development
+2026-05-23 20:55:39.719 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7071/ - null null
+2026-05-23 20:55:39.728 +05:30 [INF] Content root path: D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Api
+2026-05-23 20:55:41.871 +05:30 [INF] Executing endpoint 'HTTP: GET /'
+2026-05-23 20:55:41.924 +05:30 [INF] Executed endpoint 'HTTP: GET /'
+2026-05-23 20:55:41.950 +05:30 [INF] HTTP GET / responded 200 in 109.2916 ms
+2026-05-23 20:55:42.040 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7071/ - 200 null application/json; charset=utf-8 2341.4575ms
+2026-05-23 20:59:58.970 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5071/ - null null
+2026-05-23 20:59:59.250 +05:30 [INF] HTTP GET / responded 307 in 21.2943 ms
+2026-05-23 20:59:59.332 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5071/ - 307 0 null 364.5204ms
+2026-05-23 20:59:59.400 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7071/ - null null
+2026-05-23 20:59:59.452 +05:30 [INF] Executing endpoint 'HTTP: GET /'
+2026-05-23 20:59:59.458 +05:30 [INF] Executed endpoint 'HTTP: GET /'
+2026-05-23 20:59:59.461 +05:30 [INF] HTTP GET / responded 200 in 10.1127 ms
+2026-05-23 20:59:59.467 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7071/ - 200 null application/json; charset=utf-8 71.7012ms
+2026-05-23 21:00:26.766 +05:30 [INF] Now listening on: http://localhost:7071
+2026-05-23 21:00:26.876 +05:30 [INF] Now listening on: http://localhost:5071
+2026-05-23 21:00:27.070 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-23 21:00:27.075 +05:30 [INF] Hosting environment: Development
+2026-05-23 21:00:27.079 +05:30 [INF] Content root path: D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Api
+2026-05-23 21:00:27.236 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:7071/ - null null
+2026-05-23 21:00:27.628 +05:30 [WRN] Failed to determine the https port for redirect.
+2026-05-23 21:00:27.642 +05:30 [INF] Executing endpoint 'HTTP: GET /'
+2026-05-23 21:00:27.664 +05:30 [INF] Executed endpoint 'HTTP: GET /'
+2026-05-23 21:00:27.674 +05:30 [INF] HTTP GET / responded 200 in 58.2366 ms
+2026-05-23 21:00:27.690 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:7071/ - 200 null application/json; charset=utf-8 474.3005ms
+2026-05-23 21:00:27.779 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:7071/favicon.ico - null null
+2026-05-23 21:00:27.796 +05:30 [INF] HTTP GET /favicon.ico responded 404 in 1.6801 ms
+2026-05-23 21:00:27.805 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:7071/favicon.ico - 404 0 null 26.8107ms
+2026-05-23 21:00:27.831 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:7071/favicon.ico, Response status code: 404
+2026-05-23 21:00:55.067 +05:30 [INF] Request starting HTTP/1.1 POST http://distinct-wildcat-shortcake.ngrok-free.dev/api/telegram/webhook - application/json 623
+2026-05-23 21:00:55.079 +05:30 [INF] Executing endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 21:00:55.143 +05:30 [INF] Route matched with {action = "Receive", controller = "TelegramWebhook"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Receive(JobParser.Application.DTOs.Telegram.TelegramUpdateDto, System.Threading.CancellationToken) on controller JobParser.Api.Controllers.TelegramWebhookController (JobParser.Api).
+2026-05-23 21:01:05.161 +05:30 [INF] Processing Telegram update 10001. Length=295
+2026-05-23 21:01:05.316 +05:30 [INF] Start processing HTTP request POST https://api.openai.com/v1/chat/completions
+2026-05-23 21:01:05.358 +05:30 [INF] Sending HTTP request POST https://api.openai.com/v1/chat/completions
+2026-05-23 21:01:10.292 +05:30 [INF] Received HTTP response headers after 4920.0525ms - 200
+2026-05-23 21:01:10.309 +05:30 [INF] End processing HTTP request after 5017.236ms - 200
+2026-05-23 21:01:15.963 +05:30 [INF] Update 10001 processed. Parsed=1, Inserted=0
+2026-05-23 21:01:15.982 +05:30 [INF] Webhook response for UpdateId=10001: {"Success":true,"UpdateId":10001,"ParsedJobs":1,"InsertedJobs":0,"Message":"Processed successfully.","Jobs":[{"CompanyName":"STARION INDIA PVT. LTD.","JobLocation":"Greater Noida","Qualification":"10th","Department":null,"IsITJob":false,"InterviewDate":"2026-05-22","InterviewTime":"08:00 AM","InterviewLocation":"Starion India PVT LTD pilot 92 Ecotech 10 Greater Noida","ContactNumber":"9650495004","Email":null,"OtherDetail":"भर्ती है STARION INDIA PVT. LTD. कंपनी में !!\n\nBOYS & GIRLS दोनों के लिए\n\nइंटरव्यू डेट-: 22/05/2026\nसुबह : 8:00 AM\n\nवर्क लोकेशन:\nhttps://maps.app.goo.gl/YLXBUCksLaH7BYUGA\n\nDEEPAK Bhati\n9650495004\n9311156774\n\nEducation Required:\n10th\n\nADD:- Starion India PVT LTD pilot 92 Ecotech 10 Greater Noida","$type":"ParsedJobDto"}],"$type":"WebhookProcessingResultDto"}
+2026-05-23 21:01:16.085 +05:30 [INF] Executing OkObjectResult, writing value of type 'JobParser.Application.DTOs.Jobs.WebhookProcessingResultDto'.
+2026-05-23 21:01:16.128 +05:30 [INF] Executed action JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api) in 20968.0158ms
+2026-05-23 21:01:16.135 +05:30 [INF] Executed endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 21:01:16.143 +05:30 [INF] HTTP POST /api/telegram/webhook responded 200 in 21064.5840 ms
+2026-05-23 21:01:16.154 +05:30 [INF] Request finished HTTP/1.1 POST http://distinct-wildcat-shortcake.ngrok-free.dev/api/telegram/webhook - 200 null application/json; charset=utf-8 21087.4244ms
+2026-05-23 21:06:16.340 +05:30 [INF] Request starting HTTP/1.1 POST http://distinct-wildcat-shortcake.ngrok-free.dev/api/telegram/webhook - application/json 3060
+2026-05-23 21:06:16.388 +05:30 [INF] Executing endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 21:06:16.392 +05:30 [INF] Route matched with {action = "Receive", controller = "TelegramWebhook"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Receive(JobParser.Application.DTOs.Telegram.TelegramUpdateDto, System.Threading.CancellationToken) on controller JobParser.Api.Controllers.TelegramWebhookController (JobParser.Api).
+2026-05-23 21:06:16.481 +05:30 [WRN] Unauthorized Telegram webhook call.
+System.UnauthorizedAccessException: Missing Telegram secret token.
+   at JobParser.Api.Controllers.TelegramWebhookController.ValidateTelegramSecret(HttpRequest request) in D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Api\Controllers\TelegramWebhookController.cs:line 60
+   at JobParser.Api.Controllers.TelegramWebhookController.Receive(TelegramUpdateDto update, CancellationToken cancellationToken) in D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Api\Controllers\TelegramWebhookController.cs:line 30
+2026-05-23 21:06:16.537 +05:30 [INF] Executing UnauthorizedObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-05-23 21:06:16.546 +05:30 [INF] Executed action JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api) in 147.5441ms
+2026-05-23 21:06:16.553 +05:30 [INF] Executed endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 21:06:16.557 +05:30 [INF] HTTP POST /api/telegram/webhook responded 401 in 169.1820 ms
+2026-05-23 21:06:16.563 +05:30 [INF] Request finished HTTP/1.1 POST http://distinct-wildcat-shortcake.ngrok-free.dev/api/telegram/webhook - 401 null application/json; charset=utf-8 224.9118ms
+2026-05-23 21:06:16.752 +05:30 [INF] Request starting HTTP/1.1 POST http://distinct-wildcat-shortcake.ngrok-free.dev/api/telegram/webhook - application/json 3060
+2026-05-23 21:06:16.761 +05:30 [INF] Executing endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 21:06:16.766 +05:30 [INF] Route matched with {action = "Receive", controller = "TelegramWebhook"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Receive(JobParser.Application.DTOs.Telegram.TelegramUpdateDto, System.Threading.CancellationToken) on controller JobParser.Api.Controllers.TelegramWebhookController (JobParser.Api).
+2026-05-23 21:06:16.827 +05:30 [WRN] Unauthorized Telegram webhook call.
+System.UnauthorizedAccessException: Missing Telegram secret token.
+   at JobParser.Api.Controllers.TelegramWebhookController.ValidateTelegramSecret(HttpRequest request) in D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Api\Controllers\TelegramWebhookController.cs:line 60
+   at JobParser.Api.Controllers.TelegramWebhookController.Receive(TelegramUpdateDto update, CancellationToken cancellationToken) in D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Api\Controllers\TelegramWebhookController.cs:line 30
+2026-05-23 21:06:16.833 +05:30 [INF] Executing UnauthorizedObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-05-23 21:06:16.838 +05:30 [INF] Executed action JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api) in 66.7278ms
+2026-05-23 21:06:16.842 +05:30 [INF] Executed endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 21:06:16.845 +05:30 [INF] HTTP POST /api/telegram/webhook responded 401 in 84.5483 ms
+2026-05-23 21:06:16.851 +05:30 [INF] Request finished HTTP/1.1 POST http://distinct-wildcat-shortcake.ngrok-free.dev/api/telegram/webhook - 401 null application/json; charset=utf-8 98.8268ms
+2026-05-23 21:06:19.041 +05:30 [INF] Request starting HTTP/1.1 POST http://distinct-wildcat-shortcake.ngrok-free.dev/api/telegram/webhook - application/json 3060
+2026-05-23 21:06:19.049 +05:30 [INF] Executing endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 21:06:19.052 +05:30 [INF] Route matched with {action = "Receive", controller = "TelegramWebhook"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Receive(JobParser.Application.DTOs.Telegram.TelegramUpdateDto, System.Threading.CancellationToken) on controller JobParser.Api.Controllers.TelegramWebhookController (JobParser.Api).
+2026-05-23 21:06:19.119 +05:30 [WRN] Unauthorized Telegram webhook call.
+System.UnauthorizedAccessException: Missing Telegram secret token.
+   at JobParser.Api.Controllers.TelegramWebhookController.ValidateTelegramSecret(HttpRequest request) in D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Api\Controllers\TelegramWebhookController.cs:line 60
+   at JobParser.Api.Controllers.TelegramWebhookController.Receive(TelegramUpdateDto update, CancellationToken cancellationToken) in D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Api\Controllers\TelegramWebhookController.cs:line 30
+2026-05-23 21:06:19.124 +05:30 [INF] Executing UnauthorizedObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-05-23 21:06:19.128 +05:30 [INF] Executed action JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api) in 71.648ms
+2026-05-23 21:06:19.133 +05:30 [INF] Executed endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 21:06:19.136 +05:30 [INF] HTTP POST /api/telegram/webhook responded 401 in 86.9748 ms
+2026-05-23 21:06:19.142 +05:30 [INF] Request finished HTTP/1.1 POST http://distinct-wildcat-shortcake.ngrok-free.dev/api/telegram/webhook - 401 null application/json; charset=utf-8 100.7389ms
+2026-05-23 21:06:23.322 +05:30 [INF] Request starting HTTP/1.1 POST http://distinct-wildcat-shortcake.ngrok-free.dev/api/telegram/webhook - application/json 3060
+2026-05-23 21:06:23.331 +05:30 [INF] Executing endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 21:06:23.335 +05:30 [INF] Route matched with {action = "Receive", controller = "TelegramWebhook"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Receive(JobParser.Application.DTOs.Telegram.TelegramUpdateDto, System.Threading.CancellationToken) on controller JobParser.Api.Controllers.TelegramWebhookController (JobParser.Api).
+2026-05-23 21:06:23.372 +05:30 [WRN] Unauthorized Telegram webhook call.
+System.UnauthorizedAccessException: Missing Telegram secret token.
+   at JobParser.Api.Controllers.TelegramWebhookController.ValidateTelegramSecret(HttpRequest request) in D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Api\Controllers\TelegramWebhookController.cs:line 60
+   at JobParser.Api.Controllers.TelegramWebhookController.Receive(TelegramUpdateDto update, CancellationToken cancellationToken) in D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Api\Controllers\TelegramWebhookController.cs:line 30
+2026-05-23 21:06:23.377 +05:30 [INF] Executing UnauthorizedObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-05-23 21:06:23.382 +05:30 [INF] Executed action JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api) in 41.12ms
+2026-05-23 21:06:23.384 +05:30 [INF] Executed endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 21:06:23.386 +05:30 [INF] HTTP POST /api/telegram/webhook responded 401 in 56.3645 ms
+2026-05-23 21:06:23.392 +05:30 [INF] Request finished HTTP/1.1 POST http://distinct-wildcat-shortcake.ngrok-free.dev/api/telegram/webhook - 401 null application/json; charset=utf-8 70.1391ms
+2026-05-23 21:06:31.591 +05:30 [INF] Request starting HTTP/1.1 POST http://distinct-wildcat-shortcake.ngrok-free.dev/api/telegram/webhook - application/json 3060
+2026-05-23 21:06:31.600 +05:30 [INF] Executing endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 21:06:31.604 +05:30 [INF] Route matched with {action = "Receive", controller = "TelegramWebhook"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Receive(JobParser.Application.DTOs.Telegram.TelegramUpdateDto, System.Threading.CancellationToken) on controller JobParser.Api.Controllers.TelegramWebhookController (JobParser.Api).
+2026-05-23 21:06:31.642 +05:30 [WRN] Unauthorized Telegram webhook call.
+System.UnauthorizedAccessException: Missing Telegram secret token.
+   at JobParser.Api.Controllers.TelegramWebhookController.ValidateTelegramSecret(HttpRequest request) in D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Api\Controllers\TelegramWebhookController.cs:line 60
+   at JobParser.Api.Controllers.TelegramWebhookController.Receive(TelegramUpdateDto update, CancellationToken cancellationToken) in D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Api\Controllers\TelegramWebhookController.cs:line 30
+2026-05-23 21:06:31.647 +05:30 [INF] Executing UnauthorizedObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-05-23 21:06:31.652 +05:30 [INF] Executed action JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api) in 43.2133ms
+2026-05-23 21:06:31.658 +05:30 [INF] Executed endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 21:06:31.662 +05:30 [INF] HTTP POST /api/telegram/webhook responded 401 in 61.7617 ms
+2026-05-23 21:06:31.669 +05:30 [INF] Request finished HTTP/1.1 POST http://distinct-wildcat-shortcake.ngrok-free.dev/api/telegram/webhook - 401 null application/json; charset=utf-8 78.3355ms
+2026-05-23 21:06:47.863 +05:30 [INF] Request starting HTTP/1.1 POST http://distinct-wildcat-shortcake.ngrok-free.dev/api/telegram/webhook - application/json 3060
+2026-05-23 21:06:47.870 +05:30 [INF] Executing endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 21:06:47.873 +05:30 [INF] Route matched with {action = "Receive", controller = "TelegramWebhook"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Receive(JobParser.Application.DTOs.Telegram.TelegramUpdateDto, System.Threading.CancellationToken) on controller JobParser.Api.Controllers.TelegramWebhookController (JobParser.Api).
+2026-05-23 21:06:47.928 +05:30 [WRN] Unauthorized Telegram webhook call.
+System.UnauthorizedAccessException: Missing Telegram secret token.
+   at JobParser.Api.Controllers.TelegramWebhookController.ValidateTelegramSecret(HttpRequest request) in D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Api\Controllers\TelegramWebhookController.cs:line 60
+   at JobParser.Api.Controllers.TelegramWebhookController.Receive(TelegramUpdateDto update, CancellationToken cancellationToken) in D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Api\Controllers\TelegramWebhookController.cs:line 30
+2026-05-23 21:06:47.933 +05:30 [INF] Executing UnauthorizedObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-05-23 21:06:47.938 +05:30 [INF] Executed action JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api) in 60.4453ms
+2026-05-23 21:06:47.944 +05:30 [INF] Executed endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 21:06:47.946 +05:30 [INF] HTTP POST /api/telegram/webhook responded 401 in 75.7264 ms
+2026-05-23 21:06:47.952 +05:30 [INF] Request finished HTTP/1.1 POST http://distinct-wildcat-shortcake.ngrok-free.dev/api/telegram/webhook - 401 null application/json; charset=utf-8 88.9193ms
+2026-05-23 21:07:20.143 +05:30 [INF] Request starting HTTP/1.1 POST http://distinct-wildcat-shortcake.ngrok-free.dev/api/telegram/webhook - application/json 3060
+2026-05-23 21:07:20.164 +05:30 [INF] Executing endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 21:07:20.173 +05:30 [INF] Route matched with {action = "Receive", controller = "TelegramWebhook"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Receive(JobParser.Application.DTOs.Telegram.TelegramUpdateDto, System.Threading.CancellationToken) on controller JobParser.Api.Controllers.TelegramWebhookController (JobParser.Api).
+2026-05-23 21:07:20.232 +05:30 [WRN] Unauthorized Telegram webhook call.
+System.UnauthorizedAccessException: Missing Telegram secret token.
+   at JobParser.Api.Controllers.TelegramWebhookController.ValidateTelegramSecret(HttpRequest request) in D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Api\Controllers\TelegramWebhookController.cs:line 60
+   at JobParser.Api.Controllers.TelegramWebhookController.Receive(TelegramUpdateDto update, CancellationToken cancellationToken) in D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Api\Controllers\TelegramWebhookController.cs:line 30
+2026-05-23 21:07:20.239 +05:30 [INF] Executing UnauthorizedObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-05-23 21:07:20.242 +05:30 [INF] Executed action JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api) in 64.9506ms
+2026-05-23 21:07:20.247 +05:30 [INF] Executed endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 21:07:20.250 +05:30 [INF] HTTP POST /api/telegram/webhook responded 401 in 85.5778 ms
+2026-05-23 21:07:20.255 +05:30 [INF] Request finished HTTP/1.1 POST http://distinct-wildcat-shortcake.ngrok-free.dev/api/telegram/webhook - 401 null application/json; charset=utf-8 112.0754ms
+2026-05-23 21:08:24.584 +05:30 [INF] Request starting HTTP/1.1 POST http://distinct-wildcat-shortcake.ngrok-free.dev/api/telegram/webhook - application/json 3060
+2026-05-23 21:08:24.597 +05:30 [INF] Executing endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 21:08:24.600 +05:30 [INF] Route matched with {action = "Receive", controller = "TelegramWebhook"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Receive(JobParser.Application.DTOs.Telegram.TelegramUpdateDto, System.Threading.CancellationToken) on controller JobParser.Api.Controllers.TelegramWebhookController (JobParser.Api).
+2026-05-23 21:09:45.475 +05:30 [INF] Processing Telegram update 781896537. Length=874
+2026-05-23 21:09:45.479 +05:30 [INF] Start processing HTTP request POST https://api.openai.com/v1/chat/completions
+2026-05-23 21:09:45.993 +05:30 [ERR] Telegram webhook processing failed for UpdateId=781896537
+System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Threading.CancellationToken.ThrowIfCancellationRequested()
+   at Polly.Retry.AsyncRetryEngine.ImplementationAsync[TResult](Func`3 action, Context context, ExceptionPredicates shouldRetryExceptionPredicates, ResultPredicates`1 shouldRetryResultPredicates, Func`5 onRetryAsync, CancellationToken cancellationToken, Int32 permittedRetryCount, IEnumerable`1 sleepDurationsEnumerable, Func`4 sleepDurationProvider, Boolean continueOnCapturedContext)
+   at Polly.AsyncPolicy`1.ExecuteInternalAsync(Func`3 action, Context context, Boolean continueOnCapturedContext, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.PolicyHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at JobParser.Infrastructure.OpenAI.OpenAiChatClient.CallOpenAiAsync(String rawMessage, CancellationToken cancellationToken) in D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Infrastructure\OpenAI\OpenAiChatClient.cs:line 89
+   at JobParser.Infrastructure.OpenAI.OpenAiChatClient.ParseAsync(String rawMessage, CancellationToken cancellationToken) in D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Infrastructure\OpenAI\OpenAiChatClient.cs:line 26
+   at JobParser.Application.Services.TelegramWebhookProcessor.ProcessAsync(TelegramUpdateDto update, CancellationToken cancellationToken) in D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Application\Services\TelegramWebhookProcessor.cs:line 55
+   at JobParser.Api.Controllers.TelegramWebhookController.Receive(TelegramUpdateDto update, CancellationToken cancellationToken)
+2026-05-23 21:09:46.127 +05:30 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-05-23 21:09:46.139 +05:30 [INF] Executed action JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api) in 81532.9313ms
+2026-05-23 21:09:46.143 +05:30 [INF] Executed endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 21:09:46.146 +05:30 [ERR] HTTP POST /api/telegram/webhook responded 500 in 81548.5976 ms
+2026-05-23 21:09:46.151 +05:30 [INF] Request finished HTTP/1.1 POST http://distinct-wildcat-shortcake.ngrok-free.dev/api/telegram/webhook - 499 null application/json; charset=utf-8 81566.5018ms
+2026-05-23 21:10:28.581 +05:30 [INF] Request starting HTTP/1.1 POST http://distinct-wildcat-shortcake.ngrok-free.dev/api/telegram/webhook - application/json 3060
+2026-05-23 21:10:28.598 +05:30 [INF] Executing endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 21:10:28.616 +05:30 [INF] Route matched with {action = "Receive", controller = "TelegramWebhook"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Receive(JobParser.Application.DTOs.Telegram.TelegramUpdateDto, System.Threading.CancellationToken) on controller JobParser.Api.Controllers.TelegramWebhookController (JobParser.Api).
+2026-05-23 21:10:40.395 +05:30 [INF] Processing Telegram update 781896537. Length=874
+2026-05-23 21:10:40.405 +05:30 [INF] Start processing HTTP request POST https://api.openai.com/v1/chat/completions
+2026-05-23 21:10:40.408 +05:30 [INF] Sending HTTP request POST https://api.openai.com/v1/chat/completions
+2026-05-23 21:10:46.789 +05:30 [INF] Received HTTP response headers after 6377.8028ms - 200
+2026-05-23 21:10:46.793 +05:30 [INF] End processing HTTP request after 6388.4901ms - 200
+2026-05-23 21:11:56.232 +05:30 [INF] Update 781896537 processed. Parsed=1, Inserted=0
+2026-05-23 21:11:56.379 +05:30 [INF] Webhook response for UpdateId=781896537: {"Success":true,"UpdateId":781896537,"ParsedJobs":1,"InsertedJobs":0,"Message":"Processed successfully.","Jobs":[{"CompanyName":"VM WORKFORCE SOLUTIONS","JobLocation":"सेक्टर 85, B-13/14, DIXON, नोएडा","Qualification":null,"Department":"Production, SMT & TRC ऑपरेटर","IsITJob":false,"InterviewDate":"2026-05-23","InterviewTime":"07:00 PM","InterviewLocation":"सेक्टर 85, B-13/14, DIXON, नोएडा","ContactNumber":"8506860610","Email":null,"OtherDetail":"*Production , SMT & TRC ऑपरेटर की आवश्यकता*\nPOST :- 50 DAY & NIGHT SHIFT K LIYE.\nकेवल अनुभवी उम्मीदवार ही आवेदन करें\nफ्रेशर उम्मीदवार आवेदन न करें\n\n*आवश्यक अनुभव:*\n1️⃣ PANASONIC NPM\n* Printer & SPI\n* NXT & FUJI\n* AOI\n* Mounter\n\n*2️⃣ Full PCB Repairing (L1, L2, L3, L4)*\n\n*📅 इंटरव्यू तिथि: 23 मई  2026 तक*\n*⏰ समय: Evining shift 07:00pm बजे*\n\n*📍 जॉब लोकेशन:*\nसेक्टर 85, B-13/14, DIXON, नोएडा\n\n*💰 सैलरी: ₹13690 से ₹16848*\n*(सैलरी इंटरव्यू के अनुसार निर्धारित होगी)*\n\n*📄 जरूरी दस्तावेज:*\n* Resume\n* Salary Slip\n* Bank Statement\n\n*🏢 कंपनी सुविधाएं:*\n✅ अटेंडेंस अवार्ड – ₹1500\n✅ नाइट अलाउंस – ₹65 प्रति रात (लगभग ₹2000 प्रतिमाह)\n✅ फ्री कैंटीन और बस सुविधा\n✅ डबल ओवरटाइम\n\n*📲 Resume WhatsApp पर भेजें:*Contact Details \n\nKaran : 85068 60610\nRodas :9289980391\n\nVM WORKFORCE SOLUTIONS\n\n*⚠️ नोट: इंटरव्यू में आने से पहले अपना Resume WhatsApp kare.","$type":"ParsedJobDto"}],"$type":"WebhookProcessingResultDto"}
+2026-05-23 21:11:56.430 +05:30 [INF] Executing OkObjectResult, writing value of type 'JobParser.Application.DTOs.Jobs.WebhookProcessingResultDto'.
+2026-05-23 21:11:56.452 +05:30 [INF] Executed action JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api) in 87830.2017ms
+2026-05-23 21:11:56.455 +05:30 [INF] Executed endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 21:11:56.458 +05:30 [INF] HTTP POST /api/telegram/webhook responded 200 in 87858.8193 ms
+2026-05-23 21:11:56.464 +05:30 [INF] Request finished HTTP/1.1 POST http://distinct-wildcat-shortcake.ngrok-free.dev/api/telegram/webhook - 499 null application/json; charset=utf-8 87882.2029ms
+2026-05-23 21:13:26.606 +05:30 [INF] Request starting HTTP/1.1 POST http://distinct-wildcat-shortcake.ngrok-free.dev/api/telegram/webhook - application/json 3060
+2026-05-23 21:13:26.613 +05:30 [INF] Executing endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 21:13:26.615 +05:30 [INF] Route matched with {action = "Receive", controller = "TelegramWebhook"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Receive(JobParser.Application.DTOs.Telegram.TelegramUpdateDto, System.Threading.CancellationToken) on controller JobParser.Api.Controllers.TelegramWebhookController (JobParser.Api).
+2026-05-23 21:13:39.355 +05:30 [INF] Processing Telegram update 781896537. Length=874
+2026-05-23 21:13:39.356 +05:30 [INF] Start processing HTTP request POST https://api.openai.com/v1/chat/completions
+2026-05-23 21:13:39.361 +05:30 [INF] Sending HTTP request POST https://api.openai.com/v1/chat/completions
+2026-05-23 21:13:45.944 +05:30 [INF] Received HTTP response headers after 6580.4933ms - 200
+2026-05-23 21:13:45.947 +05:30 [INF] End processing HTTP request after 6590.7782ms - 200
+2026-05-23 22:17:49.054 +05:30 [INF] Now listening on: http://localhost:7071
+2026-05-23 22:17:49.137 +05:30 [INF] Now listening on: http://localhost:5071
+2026-05-23 22:17:49.248 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-23 22:17:49.266 +05:30 [INF] Hosting environment: Development
+2026-05-23 22:17:49.270 +05:30 [INF] Content root path: D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Api
+2026-05-23 22:17:49.871 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:7071/ - null null
+2026-05-23 22:17:50.147 +05:30 [WRN] Failed to determine the https port for redirect.
+2026-05-23 22:17:50.169 +05:30 [INF] Executing endpoint 'HTTP: GET /'
+2026-05-23 22:17:50.210 +05:30 [INF] Executed endpoint 'HTTP: GET /'
+2026-05-23 22:17:50.225 +05:30 [INF] HTTP GET / responded 200 in 83.8993 ms
+2026-05-23 22:17:50.235 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:7071/ - 200 null application/json; charset=utf-8 380.325ms
+2026-05-23 22:18:15.405 +05:30 [INF] Request starting HTTP/1.1 POST http://distinct-wildcat-shortcake.ngrok-free.dev/api/telegram/webhook - application/json 3060
+2026-05-23 22:18:15.420 +05:30 [INF] Executing endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 22:18:15.503 +05:30 [INF] Route matched with {action = "Receive", controller = "TelegramWebhook"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Receive(JobParser.Application.DTOs.Telegram.TelegramUpdateDto, System.Threading.CancellationToken) on controller JobParser.Api.Controllers.TelegramWebhookController (JobParser.Api).
+2026-05-23 22:19:00.024 +05:30 [INF] Processing Telegram update 781896537. Length=874
+2026-05-23 22:19:00.156 +05:30 [INF] Start processing HTTP request POST https://api.openai.com/v1/chat/completions
+2026-05-23 22:19:00.173 +05:30 [INF] Sending HTTP request POST https://api.openai.com/v1/chat/completions
+2026-05-23 22:19:07.688 +05:30 [INF] Received HTTP response headers after 7503.6345ms - 200
+2026-05-23 22:19:07.745 +05:30 [INF] End processing HTTP request after 7593.532ms - 200
+2026-05-23 22:19:35.658 +05:30 [INF] Update 781896537 processed. Parsed=1, Inserted=0
+2026-05-23 22:19:35.668 +05:30 [INF] Webhook response for UpdateId=781896537: {"Success":true,"UpdateId":781896537,"ParsedJobs":1,"InsertedJobs":0,"Message":"Processed successfully.","Jobs":[{"CompanyName":"VM WORKFORCE SOLUTIONS","JobLocation":"सेक्टर 85, B-13/14, DIXON, नोएडा","Qualification":null,"Department":"Production, SMT & TRC ऑपरेटर","IsITJob":false,"InterviewDate":"2026-05-23","InterviewTime":"07:00 PM","InterviewLocation":"सेक्टर 85, B-13/14, DIXON, नोएडा","ContactNumber":"8506860610","Email":null,"OtherDetail":"*Production , SMT & TRC ऑपरेटर की आवश्यकता*\nPOST :- 50 DAY & NIGHT SHIFT K LIYE.\nकेवल अनुभवी उम्मीदवार ही आवेदन करें\nफ्रेशर उम्मीदवार आवेदन न करें\n\n*आवश्यक अनुभव:*\n1️⃣ PANASONIC NPM\n* Printer & SPI\n* NXT & FUJI\n* AOI\n* Mounter\n\n*2️⃣ Full PCB Repairing (L1, L2, L3, L4)*\n\n*📅 इंटरव्यू तिथि: 23 मई  2026 तक*\n*⏰ समय: Evining shift 07:00pm बजे*\n\n*📍 जॉब लोकेशन:*\nसेक्टर 85, B-13/14, DIXON, नोएडा\n\n*💰 सैलरी: ₹13690 से ₹16848*\n*(सैलरी इंटरव्यू के अनुसार निर्धारित होगी)*\n\n*📄 जरूरी दस्तावेज:*\n* Resume\n* Salary Slip\n* Bank Statement\n\n*🏢 कंपनी सुविधाएं:*\n✅ अटेंडेंस अवार्ड – ₹1500\n✅ नाइट अलाउंस – ₹65 प्रति रात (लगभग ₹2000 प्रतिमाह)\n✅ फ्री कैंटीन और बस सुविधा\n✅ डबल ओवरटाइम\n\n*📲 Resume WhatsApp पर भेजें:*Contact Details \n\nKaran : 85068 60610\nRodas :9289980391\n\nVM WORKFORCE SOLUTIONS\n\n*⚠️ नोट: इंटरव्यू में आने से पहले अपना Resume WhatsApp kare.","$type":"ParsedJobDto"}],"$type":"WebhookProcessingResultDto"}
+2026-05-23 22:19:35.704 +05:30 [INF] Executing OkObjectResult, writing value of type 'JobParser.Application.DTOs.Jobs.WebhookProcessingResultDto'.
+2026-05-23 22:19:35.734 +05:30 [INF] Executed action JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api) in 80220.6112ms
+2026-05-23 22:19:35.740 +05:30 [INF] Executed endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 22:19:35.743 +05:30 [INF] HTTP POST /api/telegram/webhook responded 200 in 80323.8570 ms
+2026-05-23 22:19:35.749 +05:30 [INF] Request finished HTTP/1.1 POST http://distinct-wildcat-shortcake.ngrok-free.dev/api/telegram/webhook - 499 null application/json; charset=utf-8 80343.7405ms
+2026-05-23 22:20:22.264 +05:30 [INF] Request starting HTTP/1.1 POST http://distinct-wildcat-shortcake.ngrok-free.dev/api/telegram/webhook - application/json 3060
+2026-05-23 22:20:22.272 +05:30 [INF] Executing endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 22:20:22.275 +05:30 [INF] Route matched with {action = "Receive", controller = "TelegramWebhook"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Receive(JobParser.Application.DTOs.Telegram.TelegramUpdateDto, System.Threading.CancellationToken) on controller JobParser.Api.Controllers.TelegramWebhookController (JobParser.Api).
+2026-05-23 22:20:45.198 +05:30 [INF] Processing Telegram update 781896537. Length=874
+2026-05-23 22:20:45.208 +05:30 [INF] Start processing HTTP request POST https://api.openai.com/v1/chat/completions
+2026-05-23 22:20:45.213 +05:30 [INF] Sending HTTP request POST https://api.openai.com/v1/chat/completions
+2026-05-23 22:20:51.338 +05:30 [INF] Received HTTP response headers after 6123.6893ms - 200
+2026-05-23 22:20:51.342 +05:30 [INF] End processing HTTP request after 6134.2568ms - 200
+2026-05-23 22:20:55.693 +05:30 [INF] Update 781896537 processed. Parsed=1, Inserted=0
+2026-05-23 22:20:55.742 +05:30 [INF] Webhook response for UpdateId=781896537: {"Success":true,"UpdateId":781896537,"ParsedJobs":1,"InsertedJobs":0,"Message":"Processed successfully.","Jobs":[{"CompanyName":"VM WORKFORCE SOLUTIONS","JobLocation":"सेक्टर 85, B-13/14, DIXON, नोएडा","Qualification":null,"Department":"Production, SMT & TRC ऑपरेटर","IsITJob":false,"InterviewDate":"2026-05-23","InterviewTime":"07:00 PM","InterviewLocation":"सेक्टर 85, B-13/14, DIXON, नोएडा","ContactNumber":"8506860610","Email":null,"OtherDetail":"*Production , SMT & TRC ऑपरेटर की आवश्यकता*\nPOST :- 50 DAY & NIGHT SHIFT K LIYE.\nकेवल अनुभवी उम्मीदवार ही आवेदन करें\nफ्रेशर उम्मीदवार आवेदन न करें\n\n*आवश्यक अनुभव:*\n1️⃣ PANASONIC NPM\n* Printer & SPI\n* NXT & FUJI\n* AOI\n* Mounter\n\n*2️⃣ Full PCB Repairing (L1, L2, L3, L4)*\n\n*📅 इंटरव्यू तिथि: 23 मई  2026 तक*\n*⏰ समय: Evining shift 07:00pm बजे*\n\n*📍 जॉब लोकेशन:*\nसेक्टर 85, B-13/14, DIXON, नोएडा\n\n*💰 सैलरी: ₹13690 से ₹16848*\n*(सैलरी इंटरव्यू के अनुसार निर्धारित होगी)*\n\n*📄 जरूरी दस्तावेज:*\n* Resume\n* Salary Slip\n* Bank Statement\n\n*🏢 कंपनी सुविधाएं:*\n✅ अटेंडेंस अवार्ड – ₹1500\n✅ नाइट अलाउंस – ₹65 प्रति रात (लगभग ₹2000 प्रतिमाह)\n✅ फ्री कैंटीन और बस सुविधा\n✅ डबल ओवरटाइम\n\n*📲 Resume WhatsApp पर भेजें:*Contact Details \n\nKaran : 85068 60610\nRodas :9289980391\n\nVM WORKFORCE SOLUTIONS\n\n*⚠️ नोट: इंटरव्यू में आने से पहले अपना Resume WhatsApp kare.","$type":"ParsedJobDto"}],"$type":"WebhookProcessingResultDto"}
+2026-05-23 22:20:55.929 +05:30 [INF] Executing OkObjectResult, writing value of type 'JobParser.Application.DTOs.Jobs.WebhookProcessingResultDto'.
+2026-05-23 22:20:55.933 +05:30 [INF] Executed action JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api) in 33655.2802ms
+2026-05-23 22:20:55.944 +05:30 [INF] Executed endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 22:20:55.946 +05:30 [INF] HTTP POST /api/telegram/webhook responded 200 in 33674.5877 ms
+2026-05-23 22:20:55.980 +05:30 [INF] Request finished HTTP/1.1 POST http://distinct-wildcat-shortcake.ngrok-free.dev/api/telegram/webhook - 200 null application/json; charset=utf-8 33715.8424ms
+2026-05-23 22:24:53.170 +05:30 [INF] Request starting HTTP/1.1 POST http://distinct-wildcat-shortcake.ngrok-free.dev/api/telegram/webhook - application/json 3061
+2026-05-23 22:24:53.178 +05:30 [INF] Executing endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 22:24:53.180 +05:30 [INF] Route matched with {action = "Receive", controller = "TelegramWebhook"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Receive(JobParser.Application.DTOs.Telegram.TelegramUpdateDto, System.Threading.CancellationToken) on controller JobParser.Api.Controllers.TelegramWebhookController (JobParser.Api).
+2026-05-23 22:25:10.290 +05:30 [INF] Processing Telegram update 781896538. Length=875
+2026-05-23 22:25:10.303 +05:30 [INF] Start processing HTTP request POST https://api.openai.com/v1/chat/completions
+2026-05-23 22:25:10.305 +05:30 [INF] Sending HTTP request POST https://api.openai.com/v1/chat/completions
+2026-05-23 22:25:17.273 +05:30 [INF] Received HTTP response headers after 6965.5375ms - 200
+2026-05-23 22:25:17.312 +05:30 [INF] End processing HTTP request after 7008.8939ms - 200
+2026-05-23 22:26:17.398 +05:30 [INF] Update 781896538 processed. Parsed=1, Inserted=0
+2026-05-23 22:26:17.406 +05:30 [INF] Webhook response for UpdateId=781896538: {"Success":true,"UpdateId":781896538,"ParsedJobs":1,"InsertedJobs":0,"Message":"Processed successfully.","Jobs":[{"CompanyName":"VM WORKFORCE SOLUTIONS","JobLocation":"सेक्टर 85, B-13/14, DIXON, नोएडा","Qualification":null,"Department":"Production, SMT & TRC ऑपरेटर","IsITJob":false,"InterviewDate":"2026-05-23","InterviewTime":"07:00 PM","InterviewLocation":"सेक्टर 85, B-13/14, DIXON, नोएडा","ContactNumber":"8506860610","Email":null,"OtherDetail":"*Production , SMT & TRC ऑपरेटर की आवश्यकता*\nPOST :- 50 DAY & NIGHT SHIFT K LIYE.\nकेवल अनुभवी उम्मीदवार ही आवेदन करें\nफ्रेशर उम्मीदवार आवेदन न करें\n\n*आवश्यक अनुभव:*\n1️⃣ PANASONIC NPM\n* Printer & SPI\n* NXT & FUJI\n* AOI\n* Mounter\n\n*2️⃣ Full PCB Repairing (L1, L2, L3, L4)*\n\n*📅 इंटरव्यू तिथि: 23 मई  2026 तक*\n*⏰ समय: Evining shift 07:00pm बजे*\n\n*📍 जॉब लोकेशन:*\nसेक्टर 85, B-13/14, DIXON, नोएडा\n\n*💰 सैलरी: ₹13690 से ₹16848*\n*(सैलरी इंटरव्यू के अनुसार निर्धारित होगी)*\n\n*📄 जरूरी दस्तावेज:*\n* Resume\n* Salary Slip\n* Bank Statement\n\n*🏢 कंपनी सुविधाएं:*\n✅ अटेंडेंस अवार्ड – ₹1500\n✅ नाइट अलाउंस – ₹65 प्रति रात (लगभग ₹2000 प्रतिमाह)\n✅ फ्री कैंटीन और बस सुविधा\n✅ डबल ओवरटाइम\n\n*📲 Resume WhatsApp पर भेजें:*Contact Details \n\nKaran : 85068 60610\nRodas :9289980391\n\nVM WORKFORCE SOLUTIONS\n\n*⚠️ नोट: इंटरव्यू में आने से पहले अपना Resume WhatsApp kare.","$type":"ParsedJobDto"}],"$type":"WebhookProcessingResultDto"}
+2026-05-23 22:26:17.409 +05:30 [INF] Request starting HTTP/1.1 POST http://distinct-wildcat-shortcake.ngrok-free.dev/api/telegram/webhook - application/json 3061
+2026-05-23 22:26:17.501 +05:30 [INF] Executing OkObjectResult, writing value of type 'JobParser.Application.DTOs.Jobs.WebhookProcessingResultDto'.
+2026-05-23 22:26:17.503 +05:30 [INF] Executing endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 22:26:17.506 +05:30 [INF] Executed action JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api) in 84322.5553ms
+2026-05-23 22:26:17.507 +05:30 [INF] Route matched with {action = "Receive", controller = "TelegramWebhook"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Receive(JobParser.Application.DTOs.Telegram.TelegramUpdateDto, System.Threading.CancellationToken) on controller JobParser.Api.Controllers.TelegramWebhookController (JobParser.Api).
+2026-05-23 22:26:17.509 +05:30 [INF] Executed endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 22:26:46.969 +05:30 [INF] Processing Telegram update 781896538. Length=875
+2026-05-23 22:26:46.981 +05:30 [INF] HTTP POST /api/telegram/webhook responded 200 in 113802.6586 ms
+2026-05-23 22:26:46.993 +05:30 [INF] Start processing HTTP request POST https://api.openai.com/v1/chat/completions
+2026-05-23 22:26:46.995 +05:30 [INF] Request finished HTTP/1.1 POST http://distinct-wildcat-shortcake.ngrok-free.dev/api/telegram/webhook - 499 null application/json; charset=utf-8 113825.0843ms
+2026-05-23 22:26:46.998 +05:30 [INF] Sending HTTP request POST https://api.openai.com/v1/chat/completions
+2026-05-23 22:26:53.262 +05:30 [ERR] Telegram webhook processing failed for UpdateId=781896538
+System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: The I/O operation has been aborted because of either a thread exit or an application request..
+ ---> System.Net.Sockets.SocketException (995): The I/O operation has been aborted because of either a thread exit or an application request.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken, Int32 estimatedSize)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](Memory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Http.HttpConnection.InitialFillAsync(Boolean async)
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.PolicyHttpMessageHandler.SendCoreAsync(HttpRequestMessage request, Context context, CancellationToken cancellationToken)
+   at Polly.Retry.AsyncRetryEngine.ImplementationAsync[TResult](Func`3 action, Context context, ExceptionPredicates shouldRetryExceptionPredicates, ResultPredicates`1 shouldRetryResultPredicates, Func`5 onRetryAsync, CancellationToken cancellationToken, Int32 permittedRetryCount, IEnumerable`1 sleepDurationsEnumerable, Func`4 sleepDurationProvider, Boolean continueOnCapturedContext)
+   at Polly.AsyncPolicy`1.ExecuteInternalAsync(Func`3 action, Context context, Boolean continueOnCapturedContext, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.PolicyHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at JobParser.Infrastructure.OpenAI.OpenAiChatClient.CallOpenAiAsync(String rawMessage, CancellationToken cancellationToken) in D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Infrastructure\OpenAI\OpenAiChatClient.cs:line 89
+   at JobParser.Infrastructure.OpenAI.OpenAiChatClient.ParseAsync(String rawMessage, CancellationToken cancellationToken) in D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Infrastructure\OpenAI\OpenAiChatClient.cs:line 26
+   at JobParser.Application.Services.TelegramWebhookProcessor.ProcessAsync(TelegramUpdateDto update, CancellationToken cancellationToken) in D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Application\Services\TelegramWebhookProcessor.cs:line 55
+   at JobParser.Api.Controllers.TelegramWebhookController.Receive(TelegramUpdateDto update, CancellationToken cancellationToken) in D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Api\Controllers\TelegramWebhookController.cs:line 35
+2026-05-23 22:26:53.304 +05:30 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-05-23 22:26:53.307 +05:30 [INF] Executed action JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api) in 35797.0712ms
+2026-05-23 22:26:53.309 +05:30 [INF] Executed endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 22:26:53.312 +05:30 [ERR] HTTP POST /api/telegram/webhook responded 500 in 35808.1504 ms
+2026-05-23 22:26:53.315 +05:30 [INF] Request finished HTTP/1.1 POST http://distinct-wildcat-shortcake.ngrok-free.dev/api/telegram/webhook - 499 null application/json; charset=utf-8 35906.1475ms
+2026-05-23 22:26:55.238 +05:30 [INF] Request starting HTTP/1.1 POST http://distinct-wildcat-shortcake.ngrok-free.dev/api/telegram/webhook - application/json 3061
+2026-05-23 22:26:55.249 +05:30 [INF] Executing endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 22:26:55.250 +05:30 [INF] Route matched with {action = "Receive", controller = "TelegramWebhook"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Receive(JobParser.Application.DTOs.Telegram.TelegramUpdateDto, System.Threading.CancellationToken) on controller JobParser.Api.Controllers.TelegramWebhookController (JobParser.Api).
+2026-05-23 22:28:29.795 +05:30 [INF] Processing Telegram update 781896538. Length=875
+2026-05-23 22:28:29.809 +05:30 [INF] Start processing HTTP request POST https://api.openai.com/v1/chat/completions
+2026-05-23 22:28:29.815 +05:30 [INF] Request starting HTTP/1.1 POST http://distinct-wildcat-shortcake.ngrok-free.dev/api/telegram/webhook - application/json 3061
+2026-05-23 22:28:29.887 +05:30 [INF] Executing endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 22:28:29.931 +05:30 [ERR] Telegram webhook processing failed for UpdateId=781896538
+System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Threading.CancellationToken.ThrowIfCancellationRequested()
+   at Polly.Retry.AsyncRetryEngine.ImplementationAsync[TResult](Func`3 action, Context context, ExceptionPredicates shouldRetryExceptionPredicates, ResultPredicates`1 shouldRetryResultPredicates, Func`5 onRetryAsync, CancellationToken cancellationToken, Int32 permittedRetryCount, IEnumerable`1 sleepDurationsEnumerable, Func`4 sleepDurationProvider, Boolean continueOnCapturedContext)
+   at Polly.AsyncPolicy`1.ExecuteInternalAsync(Func`3 action, Context context, Boolean continueOnCapturedContext, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.PolicyHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at JobParser.Infrastructure.OpenAI.OpenAiChatClient.CallOpenAiAsync(String rawMessage, CancellationToken cancellationToken) in D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Infrastructure\OpenAI\OpenAiChatClient.cs:line 89
+   at JobParser.Infrastructure.OpenAI.OpenAiChatClient.ParseAsync(String rawMessage, CancellationToken cancellationToken) in D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Infrastructure\OpenAI\OpenAiChatClient.cs:line 26
+   at JobParser.Application.Services.TelegramWebhookProcessor.ProcessAsync(TelegramUpdateDto update, CancellationToken cancellationToken) in D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Application\Services\TelegramWebhookProcessor.cs:line 55
+   at JobParser.Api.Controllers.TelegramWebhookController.Receive(TelegramUpdateDto update, CancellationToken cancellationToken) in D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Api\Controllers\TelegramWebhookController.cs:line 35
+2026-05-23 22:28:29.932 +05:30 [INF] Route matched with {action = "Receive", controller = "TelegramWebhook"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Receive(JobParser.Application.DTOs.Telegram.TelegramUpdateDto, System.Threading.CancellationToken) on controller JobParser.Api.Controllers.TelegramWebhookController (JobParser.Api).
+2026-05-23 22:28:29.936 +05:30 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-05-23 22:28:35.360 +05:30 [INF] Processing Telegram update 781896538. Length=875
+2026-05-23 22:28:35.360 +05:30 [INF] Executed action JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api) in 100097.5787ms
+2026-05-23 22:28:35.363 +05:30 [INF] Start processing HTTP request POST https://api.openai.com/v1/chat/completions
+2026-05-23 22:28:35.366 +05:30 [INF] Executed endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 22:28:35.368 +05:30 [INF] Sending HTTP request POST https://api.openai.com/v1/chat/completions
+2026-05-23 22:28:35.371 +05:30 [ERR] HTTP POST /api/telegram/webhook responded 500 in 100121.9682 ms
+2026-05-23 22:28:35.387 +05:30 [INF] Request finished HTTP/1.1 POST http://distinct-wildcat-shortcake.ngrok-free.dev/api/telegram/webhook - 499 null application/json; charset=utf-8 100149.1699ms
+2026-05-23 22:28:40.742 +05:30 [INF] Received HTTP response headers after 5368.9266ms - 200
+2026-05-23 22:28:40.749 +05:30 [INF] End processing HTTP request after 5386.2875ms - 200
+2026-05-23 22:30:34.592 +05:30 [INF] Request starting HTTP/1.1 POST http://distinct-wildcat-shortcake.ngrok-free.dev/api/telegram/webhook - application/json 3061
+2026-05-23 22:30:34.619 +05:30 [INF] Executing endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 22:30:34.592 +05:30 [INF] Request starting HTTP/1.1 POST http://distinct-wildcat-shortcake.ngrok-free.dev/api/telegram/webhook - application/json 3061
+2026-05-23 22:30:34.625 +05:30 [INF] Executing endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 22:30:34.626 +05:30 [INF] Route matched with {action = "Receive", controller = "TelegramWebhook"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Receive(JobParser.Application.DTOs.Telegram.TelegramUpdateDto, System.Threading.CancellationToken) on controller JobParser.Api.Controllers.TelegramWebhookController (JobParser.Api).
+2026-05-23 22:30:34.620 +05:30 [INF] Route matched with {action = "Receive", controller = "TelegramWebhook"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Receive(JobParser.Application.DTOs.Telegram.TelegramUpdateDto, System.Threading.CancellationToken) on controller JobParser.Api.Controllers.TelegramWebhookController (JobParser.Api).
+2026-05-23 22:30:34.641 +05:30 [INF] Update 781896538 processed. Parsed=1, Inserted=0
+2026-05-23 22:30:34.664 +05:30 [INF] Webhook response for UpdateId=781896538: {"Success":true,"UpdateId":781896538,"ParsedJobs":1,"InsertedJobs":0,"Message":"Processed successfully.","Jobs":[{"CompanyName":"VM WORKFORCE SOLUTIONS","JobLocation":"सेक्टर 85, B-13/14, DIXON, नोएडा","Qualification":null,"Department":"Production, SMT & TRC ऑपरेटर","IsITJob":false,"InterviewDate":"2026-05-23","InterviewTime":"07:00 PM","InterviewLocation":"सेक्टर 85, B-13/14, DIXON, नोएडा","ContactNumber":"8506860610","Email":null,"OtherDetail":"*Production , SMT & TRC ऑपरेटर की आवश्यकता*\nPOST :- 50 DAY & NIGHT SHIFT K LIYE.\nकेवल अनुभवी उम्मीदवार ही आवेदन करें\nफ्रेशर उम्मीदवार आवेदन न करें\n\n*आवश्यक अनुभव:*\n1️⃣ PANASONIC NPM\n* Printer & SPI\n* NXT & FUJI\n* AOI\n* Mounter\n\n*2️⃣ Full PCB Repairing (L1, L2, L3, L4)*\n\n*📅 इंटरव्यू तिथि: 23 मई  2026 तक*\n*⏰ समय: Evining shift 07:00pm बजे*\n\n*📍 जॉब लोकेशन:*\nसेक्टर 85, B-13/14, DIXON, नोएडा\n\n*💰 सैलरी: ₹13690 से ₹16848*\n*(सैलरी इंटरव्यू के अनुसार निर्धारित होगी)*\n\n*📄 जरूरी दस्तावेज:*\n* Resume\n* Salary Slip\n* Bank Statement\n\n*🏢 कंपनी सुविधाएं:*\n✅ अटेंडेंस अवार्ड – ₹1500\n✅ नाइट अलाउंस – ₹65 प्रति रात (लगभग ₹2000 प्रतिमाह)\n✅ फ्री कैंटीन और बस सुविधा\n✅ डबल ओवरटाइम\n\n*📲 Resume WhatsApp पर भेजें:*Contact Details \n\nKaran : 85068 60610\nRodas :9289980391\n\nVM WORKFORCE SOLUTIONS\n\n*⚠️ नोट: इंटरव्यू में आने से पहले अपना Resume WhatsApp kare.","$type":"ParsedJobDto"}],"$type":"WebhookProcessingResultDto"}
+2026-05-23 22:30:35.450 +05:30 [INF] Processing Telegram update 781896538. Length=875
+2026-05-23 22:30:35.576 +05:30 [INF] Executed action JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api) in 949.1826ms
+2026-05-23 22:30:35.586 +05:30 [INF] Executing OkObjectResult, writing value of type 'JobParser.Application.DTOs.Jobs.WebhookProcessingResultDto'.
+2026-05-23 22:30:35.587 +05:30 [INF] Start processing HTTP request POST https://api.openai.com/v1/chat/completions
+2026-05-23 22:30:35.589 +05:30 [INF] Executed endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 22:30:35.591 +05:30 [INF] Executed action JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api) in 125650.4543ms
+2026-05-23 22:30:35.592 +05:30 [INF] Sending HTTP request POST https://api.openai.com/v1/chat/completions
+2026-05-23 22:30:35.595 +05:30 [ERR] HTTP POST /api/telegram/webhook responded 500 in 970.1322 ms
+Microsoft.AspNetCore.Server.Kestrel.Core.BadHttpRequestException: Unexpected end of request content.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1ContentLengthMessageBody.ReadAsyncInternal(CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream.ReadAsyncInternal(Memory`1 destination, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Text.Json.Serialization.ReadBufferState.ReadFromStreamAsync(Stream utf8Json, CancellationToken cancellationToken, Boolean fillBuffer)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.DeserializeAsync(Stream utf8Json, CancellationToken cancellationToken)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.DeserializeAsObjectAsync(Stream utf8Json, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter.ReadRequestBodyAsync(InputFormatterContext context, Encoding encoding)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter.ReadRequestBodyAsync(InputFormatterContext context, Encoding encoding)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder.BindModelAsync(ModelBindingContext bindingContext)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value, Object container)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2026-05-23 22:30:35.595 +05:30 [INF] Executed endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 22:30:35.607 +05:30 [INF] HTTP POST /api/telegram/webhook responded 200 in 125720.4245 ms
+2026-05-23 22:30:35.609 +05:30 [INF] Request finished HTTP/1.1 POST http://distinct-wildcat-shortcake.ngrok-free.dev/api/telegram/webhook - 499 null application/json; charset=utf-8 125794.4085ms
+2026-05-23 22:30:35.609 +05:30 [INF] Request finished HTTP/1.1 POST http://distinct-wildcat-shortcake.ngrok-free.dev/api/telegram/webhook - 499 null null 1016.8885ms
+2026-05-23 22:30:42.597 +05:30 [INF] Received HTTP response headers after 6999.5889ms - 200
+2026-05-23 22:30:42.601 +05:30 [INF] End processing HTTP request after 7013.9176ms - 200
+2026-05-23 22:30:44.623 +05:30 [INF] Update 781896538 processed. Parsed=1, Inserted=0
+2026-05-23 22:30:44.629 +05:30 [INF] Webhook response for UpdateId=781896538: {"Success":true,"UpdateId":781896538,"ParsedJobs":1,"InsertedJobs":0,"Message":"Processed successfully.","Jobs":[{"CompanyName":"VM WORKFORCE SOLUTIONS","JobLocation":"सेक्टर 85, B-13/14, DIXON, नोएडा","Qualification":null,"Department":"Production, SMT & TRC ऑपरेटर","IsITJob":false,"InterviewDate":"2026-05-23","InterviewTime":"07:00 PM","InterviewLocation":"सेक्टर 85, B-13/14, DIXON, नोएडा","ContactNumber":"8506860610","Email":null,"OtherDetail":"*Production , SMT & TRC ऑपरेटर की आवश्यकता*\nPOST :- 50 DAY & NIGHT SHIFT K LIYE.\nकेवल अनुभवी उम्मीदवार ही आवेदन करें\nफ्रेशर उम्मीदवार आवेदन न करें\n\n*आवश्यक अनुभव:*\n1️⃣ PANASONIC NPM\n* Printer & SPI\n* NXT & FUJI\n* AOI\n* Mounter\n\n*2️⃣ Full PCB Repairing (L1, L2, L3, L4)*\n\n*📅 इंटरव्यू तिथि: 23 मई  2026 तक*\n*⏰ समय: Evining shift 07:00pm बजे*\n\n*📍 जॉब लोकेशन:*\nसेक्टर 85, B-13/14, DIXON, नोएडा\n\n*💰 सैलरी: ₹13690 से ₹16848*\n*(सैलरी इंटरव्यू के अनुसार निर्धारित होगी)*\n\n*📄 जरूरी दस्तावेज:*\n* Resume\n* Salary Slip\n* Bank Statement\n\n*🏢 कंपनी सुविधाएं:*\n✅ अटेंडेंस अवार्ड – ₹1500\n✅ नाइट अलाउंस – ₹65 प्रति रात (लगभग ₹2000 प्रतिमाह)\n✅ फ्री कैंटीन और बस सुविधा\n✅ डबल ओवरटाइम\n\n*📲 Resume WhatsApp पर भेजें:*Contact Details \n\nKaran : 85068 60610\nRodas :9289980391\n\nVM WORKFORCE SOLUTIONS\n\n*⚠️ नोट: इंटरव्यू में आने से पहले अपना Resume WhatsApp kare.","$type":"ParsedJobDto"}],"$type":"WebhookProcessingResultDto"}
+2026-05-23 22:30:44.703 +05:30 [INF] Executing OkObjectResult, writing value of type 'JobParser.Application.DTOs.Jobs.WebhookProcessingResultDto'.
+2026-05-23 22:30:44.704 +05:30 [INF] Executed action JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api) in 10048.6084ms
+2026-05-23 22:30:44.706 +05:30 [INF] Executed endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 22:30:44.707 +05:30 [INF] HTTP POST /api/telegram/webhook responded 200 in 10088.7676 ms
+2026-05-23 22:30:44.709 +05:30 [INF] Request finished HTTP/1.1 POST http://distinct-wildcat-shortcake.ngrok-free.dev/api/telegram/webhook - 200 null application/json; charset=utf-8 10117.2225ms
+2026-05-23 22:31:32.363 +05:30 [INF] Request starting HTTP/1.1 POST http://distinct-wildcat-shortcake.ngrok-free.dev/api/telegram/webhook - application/json 3062
+2026-05-23 22:31:32.372 +05:30 [INF] Executing endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 22:31:32.373 +05:30 [INF] Route matched with {action = "Receive", controller = "TelegramWebhook"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Receive(JobParser.Application.DTOs.Telegram.TelegramUpdateDto, System.Threading.CancellationToken) on controller JobParser.Api.Controllers.TelegramWebhookController (JobParser.Api).
+2026-05-23 22:31:35.181 +05:30 [INF] Processing Telegram update 781896539. Length=875
+2026-05-23 22:31:35.192 +05:30 [INF] Start processing HTTP request POST https://api.openai.com/v1/chat/completions
+2026-05-23 22:31:35.195 +05:30 [INF] Sending HTTP request POST https://api.openai.com/v1/chat/completions
+2026-05-23 22:31:42.603 +05:30 [INF] Received HTTP response headers after 7405.4819ms - 200
+2026-05-23 22:31:42.619 +05:30 [INF] End processing HTTP request after 7426.5227ms - 200
+2026-05-23 22:32:38.237 +05:30 [INF] Update 781896539 processed. Parsed=1, Inserted=0
+2026-05-23 22:32:38.252 +05:30 [INF] Webhook response for UpdateId=781896539: {"Success":true,"UpdateId":781896539,"ParsedJobs":1,"InsertedJobs":0,"Message":"Processed successfully.","Jobs":[{"CompanyName":"VM WORKFORCE SOLUTIONS","JobLocation":"सेक्टर 85, B-13/14, DIXON, नोएडा","Qualification":null,"Department":"Production, SMT & TRC ऑपरेटर","IsITJob":false,"InterviewDate":"2026-05-23","InterviewTime":"07:00 PM","InterviewLocation":"सेक्टर 85, B-13/14, DIXON, नोएडा","ContactNumber":"8506860610","Email":null,"OtherDetail":"*Production , SMT & TRC ऑपरेटर की आवश्यकता*\nPOST :- 50 DAY & NIGHT SHIFT K LIYE.\nकेवल अनुभवी उम्मीदवार ही आवेदन करें\nफ्रेशर उम्मीदवार आवेदन न करें\n\n*आवश्यक अनुभव:*\n1️⃣ PANASONIC NPM\n* Printer & SPI\n* NXT & FUJI\n* AOI\n* Mounter\n\n*2️⃣ Full PCB Repairing (L1, L2, L3, L4)*\n\n*📅 इंटरव्यू तिथि: 23 मई  2026 तक*\n*⏰ समय: Evining shift 07:00pm बजे*\n\n*📍 जॉब लोकेशन:*\nसेक्टर 85, B-13/14, DIXON, नोएडा\n\n*💰 सैलरी: ₹13690 से ₹16848*\n*(सैलरी इंटरव्यू के अनुसार निर्धारित होगी)*\n\n*📄 जरूरी दस्तावेज:*\n* Resume\n* Salary Slip\n* Bank Statement\n\n*🏢 कंपनी सुविधाएं:*\n✅ अटेंडेंस अवार्ड – ₹1500\n✅ नाइट अलाउंस – ₹65 प्रति रात (लगभग ₹2000 प्रतिमाह)\n✅ फ्री कैंटीन और बस सुविधा\n✅ डबल ओवरटाइम\n\n*📲 Resume WhatsApp पर भेजें:*Contact Details \n\nKaran : 85068 60610\nRodas :9289980391\n\nVM WORKFORCE SOLUTIONS\n\n*⚠️ नोट: इंटरव्यू में आने से पहले अपना Resume WhatsApp kare.","$type":"ParsedJobDto"}],"$type":"WebhookProcessingResultDto"}
+2026-05-23 22:32:38.262 +05:30 [INF] Request starting HTTP/1.1 POST http://distinct-wildcat-shortcake.ngrok-free.dev/api/telegram/webhook - application/json 3062
+2026-05-23 22:32:38.284 +05:30 [INF] Executing endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 22:32:38.281 +05:30 [INF] Executing OkObjectResult, writing value of type 'JobParser.Application.DTOs.Jobs.WebhookProcessingResultDto'.
+2026-05-23 22:32:38.286 +05:30 [INF] Route matched with {action = "Receive", controller = "TelegramWebhook"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Receive(JobParser.Application.DTOs.Telegram.TelegramUpdateDto, System.Threading.CancellationToken) on controller JobParser.Api.Controllers.TelegramWebhookController (JobParser.Api).
+2026-05-23 22:32:38.290 +05:30 [INF] Executed action JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api) in 65914.4685ms
+2026-05-23 22:32:40.126 +05:30 [INF] Executed endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 22:32:40.127 +05:30 [INF] Processing Telegram update 781896539. Length=875
+2026-05-23 22:32:40.129 +05:30 [INF] HTTP POST /api/telegram/webhook responded 200 in 67757.6248 ms
+2026-05-23 22:32:40.132 +05:30 [INF] Start processing HTTP request POST https://api.openai.com/v1/chat/completions
+2026-05-23 22:32:40.136 +05:30 [INF] Request finished HTTP/1.1 POST http://distinct-wildcat-shortcake.ngrok-free.dev/api/telegram/webhook - 499 null application/json; charset=utf-8 67773.1562ms
+2026-05-23 22:32:40.139 +05:30 [INF] Sending HTTP request POST https://api.openai.com/v1/chat/completions
+2026-05-23 22:32:46.814 +05:30 [INF] Received HTTP response headers after 6665.0256ms - 200
+2026-05-23 22:32:46.821 +05:30 [INF] End processing HTTP request after 6688.2957ms - 200
+2026-05-23 22:34:47.755 +05:30 [INF] Request starting HTTP/1.1 POST http://distinct-wildcat-shortcake.ngrok-free.dev/api/telegram/webhook - application/json 3062
+2026-05-23 22:34:47.787 +05:30 [INF] Update 781896539 processed. Parsed=1, Inserted=0
+2026-05-23 22:34:51.258 +05:30 [INF] Executing endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 22:34:52.853 +05:30 [INF] Webhook response for UpdateId=781896539: {"Success":true,"UpdateId":781896539,"ParsedJobs":1,"InsertedJobs":0,"Message":"Processed successfully.","Jobs":[{"CompanyName":"VM WORKFORCE SOLUTIONS","JobLocation":"सेक्टर 85, B-13/14, DIXON, नोएडा","Qualification":null,"Department":"Production, SMT & TRC ऑपरेटर","IsITJob":false,"InterviewDate":"2026-05-23","InterviewTime":"07:00 PM","InterviewLocation":"सेक्टर 85, B-13/14, DIXON, नोएडा","ContactNumber":"8506860610","Email":null,"OtherDetail":"*Production , SMT & TRC ऑपरेटर की आवश्यकता*\nPOST :- 50 DAY & NIGHT SHIFT K LIYE.\nकेवल अनुभवी उम्मीदवार ही आवेदन करें\nफ्रेशर उम्मीदवार आवेदन न करें\n\n*आवश्यक अनुभव:*\n1️⃣ PANASONIC NPM\n* Printer & SPI\n* NXT & FUJI\n* AOI\n* Mounter\n\n*2️⃣ Full PCB Repairing (L1, L2, L3, L4)*\n\n*📅 इंटरव्यू तिथि: 23 मई  2026 तक*\n*⏰ समय: Evining shift 07:00pm बजे*\n\n*📍 जॉब लोकेशन:*\nसेक्टर 85, B-13/14, DIXON, नोएडा\n\n*💰 सैलरी: ₹13690 से ₹16848*\n*(सैलरी इंटरव्यू के अनुसार निर्धारित होगी)*\n\n*📄 जरूरी दस्तावेज:*\n* Resume\n* Salary Slip\n* Bank Statement\n\n*🏢 कंपनी सुविधाएं:*\n✅ अटेंडेंस अवार्ड – ₹1500\n✅ नाइट अलाउंस – ₹65 प्रति रात (लगभग ₹2000 प्रतिमाह)\n✅ फ्री कैंटीन और बस सुविधा\n✅ डबल ओवरटाइम\n\n*📲 Resume WhatsApp पर भेजें:*Contact Details \n\nKaran : 85068 60610\nRodas :9289980391\n\nVM WORKFORCE SOLUTIONS\n\n*⚠️ नोट: इंटरव्यू में आने से पहले अपना Resume WhatsApp kare.","$type":"ParsedJobDto"}],"$type":"WebhookProcessingResultDto"}
+2026-05-23 22:34:52.882 +05:30 [INF] Route matched with {action = "Receive", controller = "TelegramWebhook"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Receive(JobParser.Application.DTOs.Telegram.TelegramUpdateDto, System.Threading.CancellationToken) on controller JobParser.Api.Controllers.TelegramWebhookController (JobParser.Api).
+2026-05-23 22:34:47.759 +05:30 [INF] Request starting HTTP/1.1 POST http://distinct-wildcat-shortcake.ngrok-free.dev/api/telegram/webhook - application/json 3062
+2026-05-23 22:34:54.940 +05:30 [INF] Executing endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 22:34:54.941 +05:30 [INF] Route matched with {action = "Receive", controller = "TelegramWebhook"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Receive(JobParser.Application.DTOs.Telegram.TelegramUpdateDto, System.Threading.CancellationToken) on controller JobParser.Api.Controllers.TelegramWebhookController (JobParser.Api).
+2026-05-23 22:34:54.935 +05:30 [INF] Executing OkObjectResult, writing value of type 'JobParser.Application.DTOs.Jobs.WebhookProcessingResultDto'.
+2026-05-23 22:35:06.997 +05:30 [INF] Executed action JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api) in 12060.9468ms
+2026-05-23 22:35:08.516 +05:30 [INF] Executed endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 22:35:08.518 +05:30 [ERR] HTTP POST /api/telegram/webhook responded 500 in 17260.0929 ms
+Microsoft.AspNetCore.Server.Kestrel.Core.BadHttpRequestException: Unexpected end of request content.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1ContentLengthMessageBody.ReadAsyncInternal(CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream.ReadAsyncInternal(Memory`1 destination, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Text.Json.Serialization.ReadBufferState.ReadFromStreamAsync(Stream utf8Json, CancellationToken cancellationToken, Boolean fillBuffer)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.DeserializeAsync(Stream utf8Json, CancellationToken cancellationToken)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.DeserializeAsObjectAsync(Stream utf8Json, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter.ReadRequestBodyAsync(InputFormatterContext context, Encoding encoding)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter.ReadRequestBodyAsync(InputFormatterContext context, Encoding encoding)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder.BindModelAsync(ModelBindingContext bindingContext)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value, Object container)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2026-05-23 22:35:08.505 +05:30 [INF] Executed action JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api) in 150213.2408ms
+2026-05-23 22:35:08.528 +05:30 [INF] Executed endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 22:35:08.531 +05:30 [INF] HTTP POST /api/telegram/webhook responded 200 in 150247.2901 ms
+2026-05-23 22:35:08.514 +05:30 [INF] Processing Telegram update 781896539. Length=875
+2026-05-23 22:35:08.534 +05:30 [INF] Start processing HTTP request POST https://api.openai.com/v1/chat/completions
+2026-05-23 22:35:08.532 +05:30 [INF] Request finished HTTP/1.1 POST http://distinct-wildcat-shortcake.ngrok-free.dev/api/telegram/webhook - 499 null application/json; charset=utf-8 150270.0332ms
+2026-05-23 22:35:08.526 +05:30 [INF] Request finished HTTP/1.1 POST http://distinct-wildcat-shortcake.ngrok-free.dev/api/telegram/webhook - 499 null null 20771.3952ms
+2026-05-23 22:35:08.538 +05:30 [INF] Sending HTTP request POST https://api.openai.com/v1/chat/completions
+2026-05-23 22:35:14.781 +05:30 [INF] Received HTTP response headers after 6235.1169ms - 200
+2026-05-23 22:35:14.809 +05:30 [INF] End processing HTTP request after 6274.7102ms - 200
+2026-05-23 22:35:56.371 +05:30 [INF] Request starting HTTP/1.1 POST http://distinct-wildcat-shortcake.ngrok-free.dev/api/telegram/webhook - application/json 3062
+2026-05-23 22:35:56.401 +05:30 [INF] Executing endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 22:35:56.402 +05:30 [INF] Route matched with {action = "Receive", controller = "TelegramWebhook"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Receive(JobParser.Application.DTOs.Telegram.TelegramUpdateDto, System.Threading.CancellationToken) on controller JobParser.Api.Controllers.TelegramWebhookController (JobParser.Api).
+2026-05-23 22:36:00.200 +05:30 [INF] Processing Telegram update 781896539. Length=875
+2026-05-23 22:36:05.819 +05:30 [INF] Start processing HTTP request POST https://api.openai.com/v1/chat/completions
+2026-05-23 22:36:22.438 +05:30 [INF] Update 781896539 processed. Parsed=1, Inserted=0
+2026-05-23 22:36:22.485 +05:30 [INF] Sending HTTP request POST https://api.openai.com/v1/chat/completions
+2026-05-23 22:36:22.495 +05:30 [INF] Webhook response for UpdateId=781896539: {"Success":true,"UpdateId":781896539,"ParsedJobs":1,"InsertedJobs":0,"Message":"Processed successfully.","Jobs":[{"CompanyName":"VM WORKFORCE SOLUTIONS","JobLocation":"सेक्टर 85, B-13/14, DIXON, नोएडा","Qualification":null,"Department":"Production, SMT & TRC ऑपरेटर","IsITJob":false,"InterviewDate":"2026-05-23","InterviewTime":"07:00 PM","InterviewLocation":"सेक्टर 85, B-13/14, DIXON, नोएडा","ContactNumber":"8506860610","Email":null,"OtherDetail":"*Production , SMT & TRC ऑपरेटर की आवश्यकता*\nPOST :- 50 DAY & NIGHT SHIFT K LIYE.\nकेवल अनुभवी उम्मीदवार ही आवेदन करें\nफ्रेशर उम्मीदवार आवेदन न करें\n\n*आवश्यक अनुभव:*\n1️⃣ PANASONIC NPM\n* Printer & SPI\n* NXT & FUJI\n* AOI\n* Mounter\n\n*2️⃣ Full PCB Repairing (L1, L2, L3, L4)*\n\n*📅 इंटरव्यू तिथि: 23 मई  2026 तक*\n*⏰ समय: Evining shift 07:00pm बजे*\n\n*📍 जॉब लोकेशन:*\nसेक्टर 85, B-13/14, DIXON, नोएडा\n\n*💰 सैलरी: ₹13690 से ₹16848*\n*(सैलरी इंटरव्यू के अनुसार निर्धारित होगी)*\n\n*📄 जरूरी दस्तावेज:*\n* Resume\n* Salary Slip\n* Bank Statement\n\n*🏢 कंपनी सुविधाएं:*\n✅ अटेंडेंस अवार्ड – ₹1500\n✅ नाइट अलाउंस – ₹65 प्रति रात (लगभग ₹2000 प्रतिमाह)\n✅ फ्री कैंटीन और बस सुविधा\n✅ डबल ओवरटाइम\n\n*📲 Resume WhatsApp पर भेजें:*Contact Details \n\nKaran : 85068 60610\nRodas :9289980391\n\nVM WORKFORCE SOLUTIONS\n\n*⚠️ नोट: इंटरव्यू में आने से पहले अपना Resume WhatsApp kare.","$type":"ParsedJobDto"}],"$type":"WebhookProcessingResultDto"}
+2026-05-23 22:36:22.696 +05:30 [INF] Executing OkObjectResult, writing value of type 'JobParser.Application.DTOs.Jobs.WebhookProcessingResultDto'.
+2026-05-23 22:36:22.699 +05:30 [INF] Executed action JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api) in 87754.3231ms
+2026-05-23 22:36:22.701 +05:30 [INF] Executed endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 22:36:22.702 +05:30 [INF] HTTP POST /api/telegram/webhook responded 200 in 87762.5390 ms
+2026-05-23 22:36:22.705 +05:30 [INF] Request finished HTTP/1.1 POST http://distinct-wildcat-shortcake.ngrok-free.dev/api/telegram/webhook - 499 null application/json; charset=utf-8 94945.9936ms
+2026-05-23 22:36:29.376 +05:30 [INF] Received HTTP response headers after 6876.9677ms - 200
+2026-05-23 22:36:29.379 +05:30 [INF] End processing HTTP request after 23559.9287ms - 200
+2026-05-23 22:36:53.173 +05:30 [INF] Update 781896539 processed. Parsed=1, Inserted=0
+2026-05-23 22:36:55.242 +05:30 [INF] Webhook response for UpdateId=781896539: {"Success":true,"UpdateId":781896539,"ParsedJobs":1,"InsertedJobs":0,"Message":"Processed successfully.","Jobs":[{"CompanyName":"VM WORKFORCE SOLUTIONS","JobLocation":"सेक्टर 85, B-13/14, DIXON, नोएडा","Qualification":null,"Department":"Production , SMT & TRC ऑपरेटर","IsITJob":false,"InterviewDate":"2026-05-23","InterviewTime":"07:00 PM","InterviewLocation":"सेक्टर 85, B-13/14, DIXON, नोएडा","ContactNumber":"8506860610","Email":null,"OtherDetail":"*Production , SMT & TRC ऑपरेटर की आवश्यकता*\nPOST :- 50 DAY & NIGHT SHIFT K LIYE.\nकेवल अनुभवी उम्मीदवार ही आवेदन करें\nफ्रेशर उम्मीदवार आवेदन न करें\n\n*आवश्यक अनुभव:*\n1️⃣ PANASONIC NPM\n* Printer & SPI\n* NXT & FUJI\n* AOI\n* Mounter\n\n*2️⃣ Full PCB Repairing (L1, L2, L3, L4)*\n\n*📅 इंटरव्यू तिथि: 23 मई  2026 तक*\n*⏰ समय: Evining shift 07:00pm बजे*\n\n*📍 जॉब लोकेशन:*\nसेक्टर 85, B-13/14, DIXON, नोएडा\n\n*💰 सैलरी: ₹13690 से ₹16848*\n*(सैलरी इंटरव्यू के अनुसार निर्धारित होगी)*\n\n*📄 जरूरी दस्तावेज:*\n* Resume\n* Salary Slip\n* Bank Statement\n\n*🏢 कंपनी सुविधाएं:*\n✅ अटेंडेंस अवार्ड – ₹1500\n✅ नाइट अलाउंस – ₹65 प्रति रात (लगभग ₹2000 प्रतिमाह)\n✅ फ्री कैंटीन और बस सुविधा\n✅ डबल ओवरटाइम\n\n*📲 Resume WhatsApp पर भेजें:*Contact Details \n\nKaran : 85068 60610\nRodas :9289980391\n\nVM WORKFORCE SOLUTIONS\n\n*⚠️ नोट: इंटरव्यू में आने से पहले अपना Resume WhatsApp kare.","$type":"ParsedJobDto"}],"$type":"WebhookProcessingResultDto"}
+2026-05-23 22:36:55.300 +05:30 [INF] Executing OkObjectResult, writing value of type 'JobParser.Application.DTOs.Jobs.WebhookProcessingResultDto'.
+2026-05-23 22:36:55.305 +05:30 [INF] Executed action JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api) in 58879.1625ms
+2026-05-23 22:36:55.309 +05:30 [INF] Executed endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 22:36:55.312 +05:30 [INF] HTTP POST /api/telegram/webhook responded 200 in 58910.4216 ms
+2026-05-23 22:36:55.317 +05:30 [INF] Request finished HTTP/1.1 POST http://distinct-wildcat-shortcake.ngrok-free.dev/api/telegram/webhook - 499 null application/json; charset=utf-8 58945.5761ms
+2026-05-23 22:37:09.184 +05:30 [INF] Request starting HTTP/1.1 POST http://distinct-wildcat-shortcake.ngrok-free.dev/api/telegram/webhook - application/json 3062
+2026-05-23 22:37:09.192 +05:30 [INF] Executing endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 22:37:09.195 +05:30 [INF] Route matched with {action = "Receive", controller = "TelegramWebhook"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Receive(JobParser.Application.DTOs.Telegram.TelegramUpdateDto, System.Threading.CancellationToken) on controller JobParser.Api.Controllers.TelegramWebhookController (JobParser.Api).
+2026-05-23 22:37:11.173 +05:30 [INF] Processing Telegram update 781896539. Length=875
+2026-05-23 22:37:11.176 +05:30 [INF] Start processing HTTP request POST https://api.openai.com/v1/chat/completions
+2026-05-23 22:37:11.180 +05:30 [INF] Sending HTTP request POST https://api.openai.com/v1/chat/completions
+2026-05-23 22:37:17.053 +05:30 [INF] Received HTTP response headers after 5870.9592ms - 200
+2026-05-23 22:37:17.081 +05:30 [INF] End processing HTTP request after 5904.8648ms - 200
+2026-05-23 22:40:58.795 +05:30 [INF] Now listening on: http://localhost:7071
+2026-05-23 22:40:58.844 +05:30 [INF] Now listening on: http://localhost:5071
+2026-05-23 22:40:58.949 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-23 22:40:58.956 +05:30 [INF] Hosting environment: Development
+2026-05-23 22:40:58.963 +05:30 [INF] Content root path: D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Api
+2026-05-23 22:40:59.077 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:7071/ - null null
+2026-05-23 22:40:59.250 +05:30 [WRN] Failed to determine the https port for redirect.
+2026-05-23 22:40:59.256 +05:30 [INF] Executing endpoint 'HTTP: GET /'
+2026-05-23 22:40:59.281 +05:30 [INF] Executed endpoint 'HTTP: GET /'
+2026-05-23 22:40:59.286 +05:30 [INF] HTTP GET / responded 200 in 36.4277 ms
+2026-05-23 22:40:59.296 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:7071/ - 200 null application/json; charset=utf-8 223.8064ms
+2026-05-23 22:44:03.032 +05:30 [INF] Now listening on: http://localhost:7071
+2026-05-23 22:44:03.079 +05:30 [INF] Now listening on: http://localhost:5071
+2026-05-23 22:44:03.113 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-23 22:44:03.115 +05:30 [INF] Hosting environment: Development
+2026-05-23 22:44:03.117 +05:30 [INF] Content root path: D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Api
+2026-05-23 22:44:03.434 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:7071/ - null null
+2026-05-23 22:44:03.579 +05:30 [WRN] Failed to determine the https port for redirect.
+2026-05-23 22:44:03.585 +05:30 [INF] Executing endpoint 'HTTP: GET /'
+2026-05-23 22:44:03.607 +05:30 [INF] Executed endpoint 'HTTP: GET /'
+2026-05-23 22:44:03.613 +05:30 [INF] HTTP GET / responded 200 in 35.9510 ms
+2026-05-23 22:44:03.621 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:7071/ - 200 null application/json; charset=utf-8 193.0687ms
+2026-05-23 22:44:52.404 +05:30 [INF] Request starting HTTP/1.1 POST http://distinct-wildcat-shortcake.ngrok-free.dev/api/telegram/webhook - application/json 3062
+2026-05-23 22:44:52.417 +05:30 [INF] Executing endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 22:44:52.466 +05:30 [INF] Route matched with {action = "Receive", controller = "TelegramWebhook"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Receive(JobParser.Application.DTOs.Telegram.TelegramUpdateDto, System.Threading.CancellationToken) on controller JobParser.Api.Controllers.TelegramWebhookController (JobParser.Api).
+2026-05-23 22:45:02.761 +05:30 [INF] Processing Telegram update 781896539. Length=875
+2026-05-23 22:45:02.875 +05:30 [INF] Start processing HTTP request POST https://api.openai.com/v1/chat/completions
+2026-05-23 22:45:02.895 +05:30 [INF] Sending HTTP request POST https://api.openai.com/v1/chat/completions
+2026-05-23 22:45:09.426 +05:30 [INF] Received HTTP response headers after 6522.2801ms - 200
+2026-05-23 22:45:09.441 +05:30 [INF] End processing HTTP request after 6571.0579ms - 200
+2026-05-23 22:45:52.044 +05:30 [INF] Update 781896539 processed. Parsed=1, Inserted=0
+2026-05-23 22:45:52.059 +05:30 [INF] Webhook response for UpdateId=781896539: {"Success":true,"UpdateId":781896539,"ParsedJobs":1,"InsertedJobs":0,"Message":"Processed successfully.","Jobs":[{"CompanyName":"VM WORKFORCE SOLUTIONS","JobLocation":"नोएडा","Qualification":null,"Department":"Production, SMT & TRC ऑपरेटर","IsITJob":false,"InterviewDate":"2026-05-23","InterviewTime":"07:00 PM","InterviewLocation":"सेक्टर 85, B-13/14, DIXON, नोएडा","ContactNumber":"8506860610","Email":null,"OtherDetail":"*Production , SMT & TRC ऑपरेटर की आवश्यकता*\nPOST :- 50 DAY & NIGHT SHIFT K LIYE.\nकेवल अनुभवी उम्मीदवार ही आवेदन करें\nफ्रेशर उम्मीदवार आवेदन न करें\n\n*आवश्यक अनुभव:*\n1️⃣ PANASONIC NPM\n* Printer & SPI\n* NXT & FUJI\n* AOI\n* Mounter\n\n*2️⃣ Full PCB Repairing (L1, L2, L3, L4)*\n\n*📅 इंटरव्यू तिथि: 23 मई  2026 तक*\n*⏰ समय: Evining shift 07:00pm बजे*\n\n*📍 जॉब लोकेशन:*\nसेक्टर 85, B-13/14, DIXON, नोएडा\n\n*💰 सैलरी: ₹13690 से ₹16848*\n*(सैलरी इंटरव्यू के अनुसार निर्धारित होगी)*\n\n*📄 जरूरी दस्तावेज:*\n* Resume\n* Salary Slip\n* Bank Statement\n\n*🏢 कंपनी सुविधाएं:*\n✅ अटेंडेंस अवार्ड – ₹1500\n✅ नाइट अलाउंस – ₹65 प्रति रात (लगभग ₹2000 प्रतिमाह)\n✅ फ्री कैंटीन और बस सुविधा\n✅ डबल ओवरटाइम\n\n*📲 Resume WhatsApp पर भेजें:*Contact Details \n\nKaran : 85068 60610\nRodas :9289980391\n\nVM WORKFORCE SOLUTIONS\n\n*⚠️ नोट: इंटरव्यू में आने से पहले अपना Resume WhatsApp kare.","$type":"ParsedJobDto"}],"$type":"WebhookProcessingResultDto"}
+2026-05-23 22:45:52.129 +05:30 [INF] Executing OkObjectResult, writing value of type 'JobParser.Application.DTOs.Jobs.WebhookProcessingResultDto'.
+2026-05-23 22:45:52.151 +05:30 [INF] Executed action JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api) in 59676.567ms
+2026-05-23 22:45:52.156 +05:30 [INF] Executed endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 22:45:52.161 +05:30 [INF] HTTP POST /api/telegram/webhook responded 200 in 59744.6486 ms
+2026-05-23 22:45:52.169 +05:30 [INF] Request finished HTTP/1.1 POST http://distinct-wildcat-shortcake.ngrok-free.dev/api/telegram/webhook - 200 null application/json; charset=utf-8 59766.0901ms
+2026-05-23 22:47:05.351 +05:30 [INF] Request starting HTTP/1.1 POST http://distinct-wildcat-shortcake.ngrok-free.dev/api/telegram/webhook - application/json 3062
+2026-05-23 22:47:05.370 +05:30 [INF] Executing endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 22:47:05.373 +05:30 [INF] Route matched with {action = "Receive", controller = "TelegramWebhook"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Receive(JobParser.Application.DTOs.Telegram.TelegramUpdateDto, System.Threading.CancellationToken) on controller JobParser.Api.Controllers.TelegramWebhookController (JobParser.Api).
+2026-05-23 22:47:09.236 +05:30 [INF] Processing Telegram update 781896539. Length=875
+2026-05-23 22:47:09.241 +05:30 [INF] Start processing HTTP request POST https://api.openai.com/v1/chat/completions
+2026-05-23 22:47:09.244 +05:30 [INF] Sending HTTP request POST https://api.openai.com/v1/chat/completions
+2026-05-23 22:47:17.935 +05:30 [INF] Received HTTP response headers after 8687.1215ms - 200
+2026-05-23 22:47:17.938 +05:30 [INF] End processing HTTP request after 8696.9827ms - 200
+2026-05-23 22:47:40.972 +05:30 [INF] Update 781896539 processed. Parsed=1, Inserted=0
+2026-05-23 22:47:40.978 +05:30 [INF] Webhook response for UpdateId=781896539: {"Success":true,"UpdateId":781896539,"ParsedJobs":1,"InsertedJobs":0,"Message":"Processed successfully.","Jobs":[{"CompanyName":"VM WORKFORCE SOLUTIONS","JobLocation":"नोएडा","Qualification":null,"Department":"Production, SMT & TRC ऑपरेटर","IsITJob":false,"InterviewDate":"2026-05-23","InterviewTime":"07:00 PM","InterviewLocation":"सेक्टर 85, B-13/14, DIXON, नोएडा","ContactNumber":"8506860610","Email":null,"OtherDetail":"*Production , SMT & TRC ऑपरेटर की आवश्यकता*\nPOST :- 50 DAY & NIGHT SHIFT K LIYE.\nकेवल अनुभवी उम्मीदवार ही आवेदन करें\nफ्रेशर उम्मीदवार आवेदन न करें\n\n*आवश्यक अनुभव:*\n1️⃣ PANASONIC NPM\n* Printer & SPI\n* NXT & FUJI\n* AOI\n* Mounter\n\n*2️⃣ Full PCB Repairing (L1, L2, L3, L4)*\n\n*📅 इंटरव्यू तिथि: 23 मई  2026 तक*\n*⏰ समय: Evining shift 07:00pm बजे*\n\n*📍 जॉब लोकेशन:*\nसेक्टर 85, B-13/14, DIXON, नोएडा\n\n*💰 सैलरी: ₹13690 से ₹16848*\n*(सैलरी इंटरव्यू के अनुसार निर्धारित होगी)*\n\n*📄 जरूरी दस्तावेज:*\n* Resume\n* Salary Slip\n* Bank Statement\n\n*🏢 कंपनी सुविधाएं:*\n✅ अटेंडेंस अवार्ड – ₹1500\n✅ नाइट अलाउंस – ₹65 प्रति रात (लगभग ₹2000 प्रतिमाह)\n✅ फ्री कैंटीन और बस सुविधा\n✅ डबल ओवरटाइम\n\n*📲 Resume WhatsApp पर भेजें:*Contact Details \n\nKaran : 85068 60610\nRodas :9289980391\n\nVM WORKFORCE SOLUTIONS\n\n*⚠️ नोट: इंटरव्यू में आने से पहले अपना Resume WhatsApp kare.","$type":"ParsedJobDto"}],"$type":"WebhookProcessingResultDto"}
+2026-05-23 22:47:41.014 +05:30 [INF] Executing OkObjectResult, writing value of type 'JobParser.Application.DTOs.Jobs.WebhookProcessingResultDto'.
+2026-05-23 22:47:41.020 +05:30 [INF] Executed action JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api) in 35643.6559ms
+2026-05-23 22:47:41.028 +05:30 [INF] Executed endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 22:47:41.032 +05:30 [INF] HTTP POST /api/telegram/webhook responded 200 in 35662.2030 ms
+2026-05-23 22:47:41.034 +05:30 [INF] Request finished HTTP/1.1 POST http://distinct-wildcat-shortcake.ngrok-free.dev/api/telegram/webhook - 200 null application/json; charset=utf-8 35683.5382ms
+2026-05-23 22:47:42.198 +05:30 [INF] Request starting HTTP/1.1 POST http://distinct-wildcat-shortcake.ngrok-free.dev/api/telegram/webhook - application/json 3062
+2026-05-23 22:47:42.224 +05:30 [INF] Executing endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 22:47:47.958 +05:30 [INF] Route matched with {action = "Receive", controller = "TelegramWebhook"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Receive(JobParser.Application.DTOs.Telegram.TelegramUpdateDto, System.Threading.CancellationToken) on controller JobParser.Api.Controllers.TelegramWebhookController (JobParser.Api).
+2026-05-23 22:47:53.764 +05:30 [INF] Processing Telegram update 781896540. Length=875
+2026-05-23 22:47:53.771 +05:30 [INF] Start processing HTTP request POST https://api.openai.com/v1/chat/completions
+2026-05-23 22:47:54.398 +05:30 [INF] Sending HTTP request POST https://api.openai.com/v1/chat/completions
+2026-05-23 22:48:01.902 +05:30 [INF] Received HTTP response headers after 7499.9865ms - 200
+2026-05-23 22:48:01.904 +05:30 [INF] End processing HTTP request after 8133.851ms - 200
+2026-05-23 22:49:22.808 +05:30 [INF] Now listening on: http://localhost:7071
+2026-05-23 22:49:22.833 +05:30 [INF] Now listening on: http://localhost:5071
+2026-05-23 22:49:22.863 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-23 22:49:22.864 +05:30 [INF] Hosting environment: Development
+2026-05-23 22:49:22.864 +05:30 [INF] Content root path: D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Api
+2026-05-23 22:49:23.194 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:7071/ - null null
+2026-05-23 22:49:23.383 +05:30 [WRN] Failed to determine the https port for redirect.
+2026-05-23 22:49:23.389 +05:30 [INF] Executing endpoint 'HTTP: GET /'
+2026-05-23 22:49:23.404 +05:30 [INF] Executed endpoint 'HTTP: GET /'
+2026-05-23 22:49:23.407 +05:30 [INF] HTTP GET / responded 200 in 25.4871 ms
+2026-05-23 22:49:23.411 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:7071/ - 200 null application/json; charset=utf-8 221.1993ms
+2026-05-23 22:49:27.492 +05:30 [INF] Request starting HTTP/1.1 POST http://distinct-wildcat-shortcake.ngrok-free.dev/api/telegram/webhook - application/json 3062
+2026-05-23 22:49:27.513 +05:30 [INF] Executing endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 22:49:27.580 +05:30 [INF] Route matched with {action = "Receive", controller = "TelegramWebhook"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Receive(JobParser.Application.DTOs.Telegram.TelegramUpdateDto, System.Threading.CancellationToken) on controller JobParser.Api.Controllers.TelegramWebhookController (JobParser.Api).
+2026-05-23 22:49:46.368 +05:30 [INF] Processing Telegram update 781896540. Length=875
+2026-05-23 22:49:46.407 +05:30 [INF] Start processing HTTP request POST https://api.openai.com/v1/chat/completions
+2026-05-23 22:49:46.423 +05:30 [INF] Sending HTTP request POST https://api.openai.com/v1/chat/completions
+2026-05-23 22:49:52.502 +05:30 [INF] Received HTTP response headers after 6070.564ms - 200
+2026-05-23 22:49:52.517 +05:30 [INF] End processing HTTP request after 6114.0983ms - 200
+2026-05-23 22:50:01.066 +05:30 [INF] Update 781896540 processed. Parsed=1, Inserted=0
+2026-05-23 22:50:01.076 +05:30 [INF] Webhook response for UpdateId=781896540: {"Success":true,"UpdateId":781896540,"ParsedJobs":1,"InsertedJobs":0,"Message":"Processed successfully.","Jobs":[{"CompanyName":"VM WORKFORCE SOLUTIONS","JobLocation":"Noida","Qualification":null,"Department":"Production, SMT & TRC","IsITJob":false,"InterviewDate":"2026-05-23","InterviewTime":"07:00 PM","InterviewLocation":"सेक्टर 85, B-13/14, DIXON, नोएडा","ContactNumber":"8506860610","Email":null,"OtherDetail":"*Production , SMT & TRC ऑपरेटर की आवश्यकता*\nPOST :- 50 DAY & NIGHT SHIFT K LIYE.\nकेवल अनुभवी उम्मीदवार ही आवेदन करें\nफ्रेशर उम्मीदवार आवेदन न करें\n\n*आवश्यक अनुभव:*\n1️⃣ PANASONIC NPM\n* Printer & SPI\n* NXT & FUJI\n* AOI\n* Mounter\n\n*2️⃣ Full PCB Repairing (L1, L2, L3, L4)*\n\n*📅 इंटरव्यू तिथि: 23 मई  2026 तक*\n*⏰ समय: Evining shift 07:00pm बजे*\n\n*📍 जॉब लोकेशन:*\nसेक्टर 85, B-13/14, DIXON, नोएडा\n\n*💰 सैलरी: ₹13690 से ₹16848*\n*(सैलरी इंटरव्यू के अनुसार निर्धारित होगी)*\n\n*📄 जरूरी दस्तावेज:*\n* Resume\n* Salary Slip\n* Bank Statement\n\n*🏢 कंपनी सुविधाएं:*\n✅ अटेंडेंस अवार्ड – ₹1500\n✅ नाइट अलाउंस – ₹65 प्रति रात (लगभग ₹2000 प्रतिमाह)\n✅ फ्री कैंटीन और बस सुविधा\n✅ डबल ओवरटाइम\n\n*📲 Resume WhatsApp पर भेजें:*Contact Details \n\nKaran : 85068 60610\nRodas :9289980391\n\n*⚠️ नोट: इंटरव्यू में आने से पहले अपना Resume WhatsApp kare.","$type":"ParsedJobDto"}],"$type":"WebhookProcessingResultDto"}
+2026-05-23 22:50:01.120 +05:30 [INF] Executing OkObjectResult, writing value of type 'JobParser.Application.DTOs.Jobs.WebhookProcessingResultDto'.
+2026-05-23 22:50:01.137 +05:30 [INF] Executed action JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api) in 33543.2885ms
+2026-05-23 22:50:01.142 +05:30 [INF] Executed endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 22:50:01.145 +05:30 [INF] HTTP POST /api/telegram/webhook responded 200 in 33632.8155 ms
+2026-05-23 22:50:01.148 +05:30 [INF] Request finished HTTP/1.1 POST http://distinct-wildcat-shortcake.ngrok-free.dev/api/telegram/webhook - 200 null application/json; charset=utf-8 33656.0618ms
+2026-05-23 22:50:03.630 +05:30 [INF] Request starting HTTP/1.1 POST http://distinct-wildcat-shortcake.ngrok-free.dev/api/telegram/webhook - application/json 3062
+2026-05-23 22:50:03.663 +05:30 [INF] Executing endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 22:50:03.664 +05:30 [INF] Route matched with {action = "Receive", controller = "TelegramWebhook"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Receive(JobParser.Application.DTOs.Telegram.TelegramUpdateDto, System.Threading.CancellationToken) on controller JobParser.Api.Controllers.TelegramWebhookController (JobParser.Api).
+2026-05-23 22:50:05.623 +05:30 [INF] Processing Telegram update 781896541. Length=875
+2026-05-23 22:50:06.388 +05:30 [INF] Start processing HTTP request POST https://api.openai.com/v1/chat/completions
+2026-05-23 22:50:06.391 +05:30 [INF] Sending HTTP request POST https://api.openai.com/v1/chat/completions
+2026-05-23 22:50:15.296 +05:30 [INF] Received HTTP response headers after 8889.843ms - 200
+2026-05-23 22:50:15.301 +05:30 [INF] End processing HTTP request after 9648.9124ms - 200
+2026-05-23 22:50:22.505 +05:30 [INF] Update 781896541 processed. Parsed=1, Inserted=0
+2026-05-23 22:50:23.194 +05:30 [INF] Webhook response for UpdateId=781896541: {"Success":true,"UpdateId":781896541,"ParsedJobs":1,"InsertedJobs":0,"Message":"Processed successfully.","Jobs":[{"CompanyName":"VM WORKFORCE SOLUTIONS","JobLocation":"Noida","Qualification":null,"Department":"Production, SMT & TRC","IsITJob":false,"InterviewDate":"2026-05-23","InterviewTime":"07:00 PM","InterviewLocation":"सेक्टर 85, B-13/14, DIXON, नोएडा","ContactNumber":"8506860610","Email":null,"OtherDetail":"*Production , SMT & TRC ऑपरेटर की आवश्यकता*\nPOST :- 50 DAY & NIGHT SHIFT K LIYE.\nकेवल अनुभवी उम्मीदवार ही आवेदन करें\nफ्रेशर उम्मीदवार आवेदन न करें\n\n*आवश्यक अनुभव:*\n1️⃣ PANASONIC NPM\n* Printer & SPI\n* NXT & FUJI\n* AOI\n* Mounter\n\n*2️⃣ Full PCB Repairing (L1, L2, L3, L4)*\n\n*📅 इंटरव्यू तिथि: 23 मई  2026 तक*\n*⏰ समय: Evining shift 07:00pm बजे*\n\n*📍 जॉब लोकेशन:*\nसेक्टर 85, B-13/14, DIXON, नोएडा\n\n*💰 सैलरी: ₹13690 से ₹16848*\n*(सैलरी इंटरव्यू के अनुसार निर्धारित होगी)*\n\n*📄 जरूरी दस्तावेज:*\n* Resume\n* Salary Slip\n* Bank Statement\n\n*🏢 कंपनी सुविधाएं:*\n✅ अटेंडेंस अवार्ड – ₹1500\n✅ नाइट अलाउंस – ₹65 प्रति रात (लगभग ₹2000 प्रतिमाह)\n✅ फ्री कैंटीन और बस सुविधा\n✅ डबल ओवरटाइम\n\n*📲 Resume WhatsApp पर भेजें:*Contact Details \n\nKaran : 85068 60610\nRodas :9289980391\n\nVM WORKFORCE SOLUTIONS\n\n*⚠️ नोट: इंटरव्यू में आने से पहले अपना Resume WhatsApp kare.","$type":"ParsedJobDto"}],"$type":"WebhookProcessingResultDto"}
+2026-05-23 22:50:23.225 +05:30 [INF] Executing OkObjectResult, writing value of type 'JobParser.Application.DTOs.Jobs.WebhookProcessingResultDto'.
+2026-05-23 22:50:23.229 +05:30 [INF] Executed action JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api) in 19562.717ms
+2026-05-23 22:50:23.232 +05:30 [INF] Executed endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 22:50:23.235 +05:30 [INF] HTTP POST /api/telegram/webhook responded 200 in 19572.2288 ms
+2026-05-23 22:50:23.239 +05:30 [INF] Request finished HTTP/1.1 POST http://distinct-wildcat-shortcake.ngrok-free.dev/api/telegram/webhook - 200 null application/json; charset=utf-8 19608.3796ms
+2026-05-23 22:57:06.191 +05:30 [INF] Now listening on: http://localhost:7071
+2026-05-23 22:57:06.217 +05:30 [INF] Now listening on: http://localhost:5071
+2026-05-23 22:57:06.255 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-23 22:57:06.257 +05:30 [INF] Hosting environment: Development
+2026-05-23 22:57:06.259 +05:30 [INF] Content root path: D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Api
+2026-05-23 22:57:06.740 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:7071/ - null null
+2026-05-23 22:57:06.913 +05:30 [WRN] Failed to determine the https port for redirect.
+2026-05-23 22:57:06.942 +05:30 [INF] Executing endpoint 'HTTP: GET /'
+2026-05-23 22:57:06.968 +05:30 [INF] Executed endpoint 'HTTP: GET /'
+2026-05-23 22:57:07.002 +05:30 [INF] HTTP GET / responded 200 in 93.1956 ms
+2026-05-23 22:57:07.019 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:7071/ - 200 null application/json; charset=utf-8 281.5099ms
+2026-05-23 22:58:07.198 +05:30 [INF] Request starting HTTP/1.1 POST http://distinct-wildcat-shortcake.ngrok-free.dev/api/telegram/webhook - application/json 3014
+2026-05-23 22:58:07.210 +05:30 [INF] Executing endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 22:58:07.265 +05:30 [INF] Route matched with {action = "Receive", controller = "TelegramWebhook"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Receive(JobParser.Application.DTOs.Telegram.TelegramUpdateDto) on controller JobParser.Api.Controllers.TelegramWebhookController (JobParser.Api).
+2026-05-23 22:58:07.352 +05:30 [INF] Processing Telegram update 781896542. Length=806
+2026-05-23 22:58:07.353 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2026-05-23 22:58:07.360 +05:30 [INF] Executed action JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api) in 87.9815ms
+2026-05-23 22:58:07.364 +05:30 [INF] Executed endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 22:58:07.365 +05:30 [INF] HTTP POST /api/telegram/webhook responded 200 in 156.1881 ms
+2026-05-23 22:58:07.369 +05:30 [INF] Request finished HTTP/1.1 POST http://distinct-wildcat-shortcake.ngrok-free.dev/api/telegram/webhook - 200 0 null 171.7442ms
+2026-05-23 22:58:07.387 +05:30 [INF] Start processing HTTP request POST https://api.openai.com/v1/chat/completions
+2026-05-23 22:58:07.402 +05:30 [INF] Sending HTTP request POST https://api.openai.com/v1/chat/completions
+2026-05-23 22:58:15.598 +05:30 [INF] Received HTTP response headers after 8187.9875ms - 200
+2026-05-23 22:58:15.606 +05:30 [INF] End processing HTTP request after 8223.3538ms - 200
+2026-05-23 22:59:04.756 +05:30 [INF] Now listening on: http://localhost:7071
+2026-05-23 22:59:04.785 +05:30 [INF] Now listening on: http://localhost:5071
+2026-05-23 22:59:04.815 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-23 22:59:04.817 +05:30 [INF] Hosting environment: Development
+2026-05-23 22:59:04.819 +05:30 [INF] Content root path: D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Api
+2026-05-23 22:59:05.216 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:7071/ - null null
+2026-05-23 22:59:05.381 +05:30 [WRN] Failed to determine the https port for redirect.
+2026-05-23 22:59:05.394 +05:30 [INF] Executing endpoint 'HTTP: GET /'
+2026-05-23 22:59:05.426 +05:30 [INF] Executed endpoint 'HTTP: GET /'
+2026-05-23 22:59:05.441 +05:30 [INF] HTTP GET / responded 200 in 64.3416 ms
+2026-05-23 22:59:05.449 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:7071/ - 200 null application/json; charset=utf-8 236.2513ms
+2026-05-23 23:00:35.953 +05:30 [INF] Now listening on: http://localhost:7071
+2026-05-23 23:00:36.042 +05:30 [INF] Now listening on: http://localhost:5071
+2026-05-23 23:00:36.097 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-23 23:00:36.153 +05:30 [INF] Hosting environment: Development
+2026-05-23 23:00:36.154 +05:30 [INF] Content root path: D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Api
+2026-05-23 23:00:36.171 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:7071/ - null null
+2026-05-23 23:00:36.336 +05:30 [WRN] Failed to determine the https port for redirect.
+2026-05-23 23:00:36.345 +05:30 [INF] Executing endpoint 'HTTP: GET /'
+2026-05-23 23:00:36.370 +05:30 [INF] Executed endpoint 'HTTP: GET /'
+2026-05-23 23:00:36.376 +05:30 [INF] HTTP GET / responded 200 in 44.0416 ms
+2026-05-23 23:00:36.384 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:7071/ - 200 null application/json; charset=utf-8 216.0576ms
+2026-05-23 23:00:58.419 +05:30 [INF] Request starting HTTP/1.1 POST http://distinct-wildcat-shortcake.ngrok-free.dev/api/telegram/webhook - application/json 3138
+2026-05-23 23:00:58.459 +05:30 [INF] Executing endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 23:00:58.579 +05:30 [INF] Route matched with {action = "Receive", controller = "TelegramWebhook"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Receive(JobParser.Application.DTOs.Telegram.TelegramUpdateDto) on controller JobParser.Api.Controllers.TelegramWebhookController (JobParser.Api).
+2026-05-23 23:00:58.678 +05:30 [INF] Processing Telegram update 781896543. Length=806
+2026-05-23 23:00:58.681 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2026-05-23 23:00:58.694 +05:30 [INF] Executed action JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api) in 103.7476ms
+2026-05-23 23:00:58.700 +05:30 [INF] Executed endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 23:00:58.704 +05:30 [INF] HTTP POST /api/telegram/webhook responded 200 in 245.5372 ms
+2026-05-23 23:00:58.711 +05:30 [INF] Request finished HTTP/1.1 POST http://distinct-wildcat-shortcake.ngrok-free.dev/api/telegram/webhook - 200 0 null 292.6196ms
+2026-05-23 23:00:58.725 +05:30 [INF] Start processing HTTP request POST https://api.openai.com/v1/chat/completions
+2026-05-23 23:00:58.753 +05:30 [INF] Sending HTTP request POST https://api.openai.com/v1/chat/completions
+2026-05-23 23:01:05.093 +05:30 [INF] Received HTTP response headers after 6334.3708ms - 200
+2026-05-23 23:01:05.104 +05:30 [INF] End processing HTTP request after 6384.8805ms - 200
+2026-05-23 23:02:02.498 +05:30 [INF] Now listening on: http://localhost:7071
+2026-05-23 23:02:02.529 +05:30 [INF] Now listening on: http://localhost:5071
+2026-05-23 23:02:02.565 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-23 23:02:02.568 +05:30 [INF] Hosting environment: Development
+2026-05-23 23:02:02.569 +05:30 [INF] Content root path: D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Api
+2026-05-23 23:02:02.930 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:7071/ - null null
+2026-05-23 23:02:03.053 +05:30 [WRN] Failed to determine the https port for redirect.
+2026-05-23 23:02:03.056 +05:30 [INF] Executing endpoint 'HTTP: GET /'
+2026-05-23 23:02:03.075 +05:30 [INF] Executed endpoint 'HTTP: GET /'
+2026-05-23 23:02:03.078 +05:30 [INF] HTTP GET / responded 200 in 28.6016 ms
+2026-05-23 23:02:03.085 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:7071/ - 200 null application/json; charset=utf-8 160.7676ms
+2026-05-23 23:02:17.999 +05:30 [INF] Request starting HTTP/1.1 POST http://distinct-wildcat-shortcake.ngrok-free.dev/api/telegram/webhook - application/json 3099
+2026-05-23 23:02:18.022 +05:30 [INF] Executing endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 23:02:18.065 +05:30 [INF] Route matched with {action = "Receive", controller = "TelegramWebhook"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Receive(JobParser.Application.DTOs.Telegram.TelegramUpdateDto) on controller JobParser.Api.Controllers.TelegramWebhookController (JobParser.Api).
+2026-05-23 23:02:18.186 +05:30 [INF] Processing Telegram update 781896544. Length=806
+2026-05-23 23:02:18.187 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2026-05-23 23:02:18.198 +05:30 [INF] Executed action JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api) in 122.2306ms
+2026-05-23 23:02:18.202 +05:30 [INF] Executed endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 23:02:18.204 +05:30 [INF] HTTP POST /api/telegram/webhook responded 200 in 182.8857 ms
+2026-05-23 23:02:18.209 +05:30 [INF] Request finished HTTP/1.1 POST http://distinct-wildcat-shortcake.ngrok-free.dev/api/telegram/webhook - 200 0 null 210.8969ms
+2026-05-23 23:02:18.228 +05:30 [INF] Start processing HTTP request POST https://api.openai.com/v1/chat/completions
+2026-05-23 23:02:18.259 +05:30 [INF] Sending HTTP request POST https://api.openai.com/v1/chat/completions
+2026-05-23 23:02:26.989 +05:30 [INF] Received HTTP response headers after 8721.5793ms - 200
+2026-05-23 23:02:26.995 +05:30 [INF] End processing HTTP request after 8772.6724ms - 200
+2026-05-23 23:02:41.542 +05:30 [INF] Update 781896544 processed. Parsed=1, Inserted=0
+2026-05-23 23:02:41.551 +05:30 [INF] Webhook response for UpdateId=781896544: {"Success":true,"UpdateId":781896544,"ParsedJobs":1,"InsertedJobs":0,"Message":"Processed successfully.","Jobs":[{"CompanyName":"BJD Company","JobLocation":"Noida","Qualification":"10th, 12th","Department":"only Solding department","IsITJob":false,"InterviewDate":"2026-05-25","InterviewTime":"08:00 AM","InterviewLocation":"B-5 Sec-65","ContactNumber":"7011276205","Email":null,"OtherDetail":"#Ark_workforce Se Bharti h \n!! भर्ती है “Charger बनाने वाली ” कंपनी में !! Day shift शिफ्ट के लिए।।\n!! भर्ती है “BJD Company ” कंपनी में !!\nप्रिय कैंडिडेट,\nआपको सूचित किया जाता है दिनांक 25-05-2026\n𝐓𝐨𝐭𝐚𝐥 𝐕𝐚𝐜𝐚𝐧𝐜𝐲:- 60  Day shift \n𝐃𝐞𝐩𝐚𝐫𝐭𝐦𝐞𝐧𝐭:-    only Solding department \n𝐍𝐨𝐭𝐞:-  Boys and girls dono apply kr skti hai \n1- Soldering salary - Rs     15375 \n𝐎𝐯𝐞𝐫𝐭𝐢𝐦𝐞:- 132 pr hours  𝐀𝐭𝐭𝐞𝐧𝐝𝐚𝐧𝐜𝐞  Rs200/\nआवश्यक योग्यता*: 10th, 12th\n𝐍𝐨𝐭𝐞:- DAY  sift \nPhone allowed\n\n(ओरिगेनल आधार कार्ड  लाना  अनिवार्य  है,डॉक्यूमेंट के साथ बैंक अकाउंट, दो फोटो  लाना अनिवार्य है )\nइंटरव्यू डेट-25-05-2026 सुबह 08:00 बजे\nContact  Ankush sir - 7011276205\nइंटरव्यू पता-: B-5 Sec-65\nhttps://maps.app.goo.gl/5hYqdBJyEemkDfrg6?g_st=aw","$type":"ParsedJobDto"}],"$type":"WebhookProcessingResultDto"}
+2026-05-23 23:03:51.936 +05:30 [INF] Request starting HTTP/1.1 POST http://distinct-wildcat-shortcake.ngrok-free.dev/api/telegram/webhook - application/json 3118
+2026-05-23 23:03:51.959 +05:30 [INF] Executing endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 23:03:51.962 +05:30 [INF] Route matched with {action = "Receive", controller = "TelegramWebhook"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Receive(JobParser.Application.DTOs.Telegram.TelegramUpdateDto) on controller JobParser.Api.Controllers.TelegramWebhookController (JobParser.Api).
+2026-05-23 23:03:51.970 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2026-05-23 23:03:51.970 +05:30 [INF] Processing Telegram update 781896545. Length=1074
+2026-05-23 23:03:51.972 +05:30 [INF] Executed action JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api) in 5.5293ms
+2026-05-23 23:03:51.975 +05:30 [INF] Start processing HTTP request POST https://api.openai.com/v1/chat/completions
+2026-05-23 23:03:51.976 +05:30 [INF] Executed endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 23:03:51.979 +05:30 [INF] Sending HTTP request POST https://api.openai.com/v1/chat/completions
+2026-05-23 23:03:51.980 +05:30 [INF] HTTP POST /api/telegram/webhook responded 200 in 22.7772 ms
+2026-05-23 23:03:51.990 +05:30 [INF] Request finished HTTP/1.1 POST http://distinct-wildcat-shortcake.ngrok-free.dev/api/telegram/webhook - 200 0 null 55.0768ms
+2026-05-23 23:03:57.918 +05:30 [INF] Received HTTP response headers after 5935.332ms - 200
+2026-05-23 23:03:57.921 +05:30 [INF] End processing HTTP request after 5946.8286ms - 200
+2026-05-23 23:04:18.331 +05:30 [INF] Update 781896545 processed. Parsed=1, Inserted=0
+2026-05-23 23:04:18.338 +05:30 [INF] Webhook response for UpdateId=781896545: {"Success":true,"UpdateId":781896545,"ParsedJobs":1,"InsertedJobs":0,"Message":"Processed successfully.","Jobs":[{"CompanyName":"UTL Solar Limited Company","JobLocation":"Greater Noida","Qualification":"10th/12th, ITI, Diploma Btech","Department":null,"IsITJob":false,"InterviewDate":"2026-05-24","InterviewTime":"09:00 AM","InterviewLocation":"Dhada Gaon ke paas, Greater Noida, Uttar Pradesh","ContactNumber":"8923694773","Email":null,"OtherDetail":"ARK_Workforce Contactor se से बहुत अच्छी जॉब है Karo padhai ke sath kamai D-voc ke Dowara diploma bhi karaya jata hai subsidy ke sath Local not allowed distance 150km Boy– 100+ Posts (तुरंत जॉइनिंग) only (8 घंटे ड्यूटी) ₹13800/- for 10th/12th, ₹15059/- for ITI, ₹16868/- for Diploma Btech Attendance Aword-2000/- Performance.Aword-1000 5s&kaizen Aword-1000/- Over time double अन्य सुविधाएं: Bus -250 month, Canteen 20per day Available (Subsidy के साथ) काम का प्रकार: सिटिंग लाइन (खड़े होकर भी काम) प्रोडक्ट: Solar Panel, Battery, Transformer, Inverter 🔗 https://maps.app.goo.gl/NTwvpSDFxVvVSjdm9?g_st=iw जल्दी करें! बहुत अच्छी जॉब है और BEST OPPORTUNITY है!","$type":"ParsedJobDto"}],"$type":"WebhookProcessingResultDto"}
+2026-05-23 23:12:11.334 +05:30 [INF] Now listening on: http://localhost:7071
+2026-05-23 23:12:11.382 +05:30 [INF] Now listening on: http://localhost:5071
+2026-05-23 23:12:11.448 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-23 23:12:11.451 +05:30 [INF] Hosting environment: Development
+2026-05-23 23:12:11.453 +05:30 [INF] Content root path: D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Api
+2026-05-23 23:12:12.070 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:7071/ - null null
+2026-05-23 23:12:12.391 +05:30 [WRN] Failed to determine the https port for redirect.
+2026-05-23 23:12:12.403 +05:30 [INF] Executing endpoint 'HTTP: GET /'
+2026-05-23 23:12:12.440 +05:30 [INF] Executed endpoint 'HTTP: GET /'
+2026-05-23 23:12:12.448 +05:30 [INF] HTTP GET / responded 200 in 65.0038 ms
+2026-05-23 23:12:12.461 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:7071/ - 200 null application/json; charset=utf-8 405.6642ms
+2026-05-23 23:13:06.408 +05:30 [INF] Request starting HTTP/1.1 POST http://distinct-wildcat-shortcake.ngrok-free.dev/api/telegram/webhook - application/json 3132
+2026-05-23 23:13:06.433 +05:30 [INF] Executing endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 23:13:06.529 +05:30 [INF] Route matched with {action = "Receive", controller = "TelegramWebhook"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Receive(JobParser.Application.DTOs.Telegram.TelegramUpdateDto) on controller JobParser.Api.Controllers.TelegramWebhookController (JobParser.Api).
+2026-05-23 23:13:06.638 +05:30 [INF] Processing Telegram update 781896546. Length=1073
+2026-05-23 23:13:06.640 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2026-05-23 23:13:06.655 +05:30 [INF] Executed action JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api) in 112.4623ms
+2026-05-23 23:13:06.668 +05:30 [INF] Executed endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 23:13:06.673 +05:30 [INF] HTTP POST /api/telegram/webhook responded 200 in 240.1917 ms
+2026-05-23 23:13:06.678 +05:30 [INF] Request finished HTTP/1.1 POST http://distinct-wildcat-shortcake.ngrok-free.dev/api/telegram/webhook - 200 0 null 270.6459ms
+2026-05-23 23:13:06.699 +05:30 [INF] Start processing HTTP request POST https://api.openai.com/v1/chat/completions
+2026-05-23 23:13:06.717 +05:30 [INF] Sending HTTP request POST https://api.openai.com/v1/chat/completions
+2026-05-23 23:13:12.218 +05:30 [INF] Received HTTP response headers after 5494.8705ms - 200
+2026-05-23 23:13:12.229 +05:30 [INF] End processing HTTP request after 5535.3232ms - 200
+2026-05-23 23:13:17.927 +05:30 [INF] Update 781896546 processed. Parsed=1, Inserted=0
+2026-05-23 23:13:17.951 +05:30 [INF] Webhook response for UpdateId=781896546: {"Success":true,"UpdateId":781896546,"ParsedJobs":1,"InsertedJobs":0,"Message":"Processed successfully.","Jobs":[{"CompanyName":"UTL Solar Limited Company","JobLocation":"Greater Noida","Qualification":"10th/12th, ITI, Diploma Btech","Department":null,"IsITJob":false,"InterviewDate":"2026-05-24","InterviewTime":"09:00 AM","InterviewLocation":"Dhada Gaon ke paas, Greater Noida, Uttar Pradesh","ContactNumber":"8923694773","Email":null,"OtherDetail":"ARK_Workforce Contactor se से बहुत अच्छी जॉब है Karo padhai ke sath kamai D-voc ke Dowara diploma bhi karaya jata hai subsidy ke sath Local not allowed distance 150km Boy– 100+ Posts (तुरंत जॉइनिंग) only (8 घंटे ड्यूटी) ₹13800/- for 10th/12th, ₹15059/- for ITI, ₹16868/- for Diploma Btech Attendance Aword-2000/- Performance.Aword-1000 5s&kaizen Aword-1000/- Over time double अन्य सुविधाएं: Bus -250 month, Canteen 20per day Available (Subsidy के साथ) काम का प्रकार: सिटिंग लाइन (खड़े होकर भी काम) प्रोडक्ट: Solar Panel, Battery, Transformer, Inverter 🔗 https://maps.app.goo.gl/NTwvpSDFxVvVSjdm9?g_st=iw जल्दी करें! बहुत अच्छी जॉब है और BEST OPPORTUNITY है!","$type":"ParsedJobDto"}],"$type":"WebhookProcessingResultDto"}
+2026-05-23 23:16:20.229 +05:30 [INF] Now listening on: http://localhost:7071
+2026-05-23 23:16:20.310 +05:30 [INF] Now listening on: http://localhost:5071
+2026-05-23 23:16:20.572 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-23 23:16:20.575 +05:30 [INF] Hosting environment: Development
+2026-05-23 23:16:20.578 +05:30 [INF] Content root path: D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Api
+2026-05-23 23:16:20.928 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:7071/ - null null
+2026-05-23 23:16:21.259 +05:30 [WRN] Failed to determine the https port for redirect.
+2026-05-23 23:16:21.270 +05:30 [INF] Executing endpoint 'HTTP: GET /'
+2026-05-23 23:16:21.339 +05:30 [INF] Executed endpoint 'HTTP: GET /'
+2026-05-23 23:16:21.346 +05:30 [INF] HTTP GET / responded 200 in 98.3254 ms
+2026-05-23 23:16:21.360 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:7071/ - 200 null application/json; charset=utf-8 450.8809ms
+2026-05-23 23:17:32.031 +05:30 [INF] Request starting HTTP/1.1 POST http://distinct-wildcat-shortcake.ngrok-free.dev/api/telegram/webhook - application/json 3132
+2026-05-23 23:17:32.051 +05:30 [INF] Executing endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 23:17:32.134 +05:30 [INF] Route matched with {action = "Receive", controller = "TelegramWebhook"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Receive(JobParser.Application.DTOs.Telegram.TelegramUpdateDto) on controller JobParser.Api.Controllers.TelegramWebhookController (JobParser.Api).
+2026-05-23 23:17:32.243 +05:30 [INF] Processing Telegram update 781896547. Length=1073
+2026-05-23 23:17:32.244 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2026-05-23 23:17:32.252 +05:30 [INF] Executed action JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api) in 108.1586ms
+2026-05-23 23:17:32.256 +05:30 [INF] Executed endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 23:17:32.258 +05:30 [INF] HTTP POST /api/telegram/webhook responded 200 in 207.8592 ms
+2026-05-23 23:17:32.263 +05:30 [INF] Request finished HTTP/1.1 POST http://distinct-wildcat-shortcake.ngrok-free.dev/api/telegram/webhook - 200 0 null 233.0915ms
+2026-05-23 23:17:32.285 +05:30 [INF] Start processing HTTP request POST https://api.openai.com/v1/chat/completions
+2026-05-23 23:17:32.337 +05:30 [INF] Sending HTTP request POST https://api.openai.com/v1/chat/completions
+2026-05-23 23:17:37.860 +05:30 [INF] Received HTTP response headers after 5516.0268ms - 200
+2026-05-23 23:17:37.869 +05:30 [INF] End processing HTTP request after 5590.1924ms - 200
+2026-05-23 23:17:43.157 +05:30 [INF] Update 781896547 processed. Parsed=1, Inserted=0
+2026-05-23 23:17:43.178 +05:30 [INF] Webhook response for UpdateId=781896547: {"Success":true,"UpdateId":781896547,"ParsedJobs":1,"InsertedJobs":0,"Message":"Processed successfully.","Jobs":[{"CompanyName":"UTL Solar Limited Company","JobLocation":"Greater Noida","Qualification":"10th/12th, ITI, Diploma Btech","Department":null,"IsITJob":false,"InterviewDate":"2026-05-24","InterviewTime":"09:00 AM","InterviewLocation":"Dhada Gaon ke paas, Greater Noida, Uttar Pradesh","ContactNumber":"8923694773","Email":null,"OtherDetail":"ARK_Workforce Contactor se से बहुत अच्छी जॉब है Karo padhai ke sath kamai D-voc ke Dowara diploma bhi karaya jata hai subsidy ke sath Local not allowed distance 150km Boy– 100+ Posts (तुरंत जॉइनिंग) only (8 घंटे ड्यूटी) ₹13800/- for 10th/12th, ₹15059/- for ITI, ₹16868/- for Diploma Btech Attendance Aword-2000/- Performance.Aword-1000 5s&kaizen Aword-1000/- Over time double अन्य सुविधाएं: Bus -250 month, Canteen 20per day Available (Subsidy के साथ) काम का प्रकार: सिटिंग लाइन (खड़े होकर भी काम) प्रोडक्ट: Solar Panel, Battery, Transformer, Inverter 🔗 https://maps.app.goo.gl/NTwvpSDFxVvVSjdm9?g_st=iw जल्दी करें! बहुत अच्छी जॉब है और BEST OPPORTUNITY है!","$type":"ParsedJobDto"}],"$type":"WebhookProcessingResultDto"}
+2026-05-23 23:18:12.417 +05:30 [INF] Request starting HTTP/1.1 POST http://distinct-wildcat-shortcake.ngrok-free.dev/api/telegram/webhook - application/json 3132
+2026-05-23 23:18:12.433 +05:30 [INF] Executing endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 23:18:12.440 +05:30 [INF] Route matched with {action = "Receive", controller = "TelegramWebhook"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Receive(JobParser.Application.DTOs.Telegram.TelegramUpdateDto) on controller JobParser.Api.Controllers.TelegramWebhookController (JobParser.Api).
+2026-05-23 23:18:12.456 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2026-05-23 23:18:12.457 +05:30 [INF] Processing Telegram update 781896548. Length=1073
+2026-05-23 23:18:12.460 +05:30 [INF] Executed action JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api) in 8.3456ms
+2026-05-23 23:18:12.464 +05:30 [INF] Start processing HTTP request POST https://api.openai.com/v1/chat/completions
+2026-05-23 23:18:12.466 +05:30 [INF] Executed endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 23:18:12.470 +05:30 [INF] Sending HTTP request POST https://api.openai.com/v1/chat/completions
+2026-05-23 23:18:12.472 +05:30 [INF] HTTP POST /api/telegram/webhook responded 200 in 40.7141 ms
+2026-05-23 23:18:12.481 +05:30 [INF] Request finished HTTP/1.1 POST http://distinct-wildcat-shortcake.ngrok-free.dev/api/telegram/webhook - 200 0 null 64.3153ms
+2026-05-23 23:18:16.527 +05:30 [INF] Received HTTP response headers after 4052.4766ms - 200
+2026-05-23 23:18:16.530 +05:30 [INF] End processing HTTP request after 4066.2495ms - 200
+2026-05-23 23:19:41.766 +05:30 [INF] Update 781896548 processed. Parsed=1, Inserted=0
+2026-05-23 23:19:41.774 +05:30 [INF] Webhook response for UpdateId=781896548: {"Success":true,"UpdateId":781896548,"ParsedJobs":1,"InsertedJobs":0,"Message":"Processed successfully.","Jobs":[{"CompanyName":"UTL Solar Limited Company","JobLocation":"Greater Noida","Qualification":"10th/12th, ITI, Diploma Btech","Department":null,"IsITJob":false,"InterviewDate":"2026-05-24","InterviewTime":"09:00 AM","InterviewLocation":"Dhada Gaon ke paas, Greater Noida, Uttar Pradesh","ContactNumber":"8923694773","Email":null,"OtherDetail":"ARK_Workforce Contactor se से बहुत अच्छी जॉब है Karo padhai ke sath kamai D-voc ke Dowara diploma bhi karaya jata hai subsidy ke sath Local not allowed distance 150km Boy– 100+ Posts (तुरंत जॉइनिंग) only (8 घंटे ड्यूटी) ₹13800/- for 10th/12th, ₹15059/- for ITI, ₹16868/- for Diploma Btech Attendance Aword-2000/- Performance.Aword-1000 5s&kaizen Aword-1000/- Over time double अन्य सुविधाएं: Bus -250 month, Canteen 20per day Available (Subsidy के साथ) काम का प्रकार: सिटिंग लाइन (खड़े होकर भी काम) प्रोडक्ट: Solar Panel, Battery, Transformer, Inverter 🔗 https://maps.app.goo.gl/NTwvpSDFxVvVSjdm9?g_st=iw जल्दी करें! बहुत अच्छी जॉब है और BEST OPPORTUNITY है!","$type":"ParsedJobDto"}],"$type":"WebhookProcessingResultDto"}
+2026-05-23 23:27:13.008 +05:30 [INF] Request starting HTTP/1.1 POST http://distinct-wildcat-shortcake.ngrok-free.dev/api/telegram/webhook - application/json 2730
+2026-05-23 23:27:13.023 +05:30 [INF] Executing endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 23:27:13.026 +05:30 [INF] Route matched with {action = "Receive", controller = "TelegramWebhook"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Receive(JobParser.Application.DTOs.Telegram.TelegramUpdateDto) on controller JobParser.Api.Controllers.TelegramWebhookController (JobParser.Api).
+2026-05-23 23:27:13.040 +05:30 [INF] Processing Telegram update 781896549. Length=719
+2026-05-23 23:27:13.040 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2026-05-23 23:27:13.044 +05:30 [INF] Start processing HTTP request POST https://api.openai.com/v1/chat/completions
+2026-05-23 23:27:13.047 +05:30 [INF] Executed action JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api) in 13.807ms
+2026-05-23 23:27:13.050 +05:30 [INF] Sending HTTP request POST https://api.openai.com/v1/chat/completions
+2026-05-23 23:27:13.054 +05:30 [INF] Executed endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 23:27:13.063 +05:30 [INF] HTTP POST /api/telegram/webhook responded 200 in 40.9461 ms
+2026-05-23 23:27:13.079 +05:30 [INF] Request finished HTTP/1.1 POST http://distinct-wildcat-shortcake.ngrok-free.dev/api/telegram/webhook - 200 0 null 71.3128ms
+2026-05-23 23:27:18.447 +05:30 [INF] Received HTTP response headers after 5390.2173ms - 200
+2026-05-23 23:27:18.451 +05:30 [INF] End processing HTTP request after 5406.7946ms - 200
+2026-05-23 23:28:50.882 +05:30 [INF] Update 781896549 processed. Parsed=1, Inserted=0
+2026-05-23 23:28:50.897 +05:30 [INF] Webhook response for UpdateId=781896549: {"Success":true,"UpdateId":781896549,"ParsedJobs":1,"InsertedJobs":0,"Message":"Processed successfully.","Jobs":[{"CompanyName":"Relish Overseas","JobLocation":"Noida","Qualification":"adhar card wale bhi apply kar sakte hai","Department":"Soldering Operator","IsITJob":false,"InterviewDate":"2026-05-25","InterviewTime":"08:00 AM","InterviewLocation":"B-109 Sec-63","ContactNumber":"7011276205","Email":null,"OtherDetail":"#Ark_workforce Se Bharti h \nhttps://whatsapp.com/channel/0029Va8aXj4LI8YXceFAsY0l\n!! भर्ती है “मोबाइल PCB बनाने वाली ” कंपनी में !! Day shift शिफ्ट के लिए।।\n!! भर्ती है “ *Relish* *Overseas* \n कंपनी में !!\nप्रिय कैंडिडेट,\nआपको सूचित किया जाता है दिनांक 19-05-2026\n𝐓𝐨𝐭𝐚𝐥 𝐕𝐚𝐜𝐚𝐧𝐜𝐲:- 30  Day shift \n𝐃𝐞𝐩𝐚𝐫𝐭𝐦𝐞𝐧𝐭:-   Soldering Operator \n𝐍𝐨𝐭𝐞:-  Boys and girls dono apply kr skti hai  salary in hand 13690 \nआवश्यक योग्यता*: adhar card wale bhi apply kar sakte hai \n𝐍𝐨𝐭𝐞:- DAY  Swift \nPhone allowed\n\n(ओरिगेनल आधार कार्ड  लाना  अनिवार्य  है,डॉक्यूमेंट के साथ बैंक अकाउंट, दो फोटो  लाना अनिवार्य है )\nइंटरव्यू डेट-25-05-2026 सुबह 08:00 बजे\nContact  Ankush sir - 7011276205\nइंटरव्यू पता-: B-109 Sec-63","$type":"ParsedJobDto"}],"$type":"WebhookProcessingResultDto"}
+2026-05-23 23:30:41.753 +05:30 [INF] Request starting HTTP/1.1 POST http://distinct-wildcat-shortcake.ngrok-free.dev/api/telegram/webhook - application/json 2928
+2026-05-23 23:30:41.769 +05:30 [INF] Executing endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 23:30:41.772 +05:30 [INF] Route matched with {action = "Receive", controller = "TelegramWebhook"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Receive(JobParser.Application.DTOs.Telegram.TelegramUpdateDto) on controller JobParser.Api.Controllers.TelegramWebhookController (JobParser.Api).
+2026-05-23 23:30:41.779 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2026-05-23 23:30:41.779 +05:30 [INF] Processing Telegram update 781896550. Length=870
+2026-05-23 23:30:41.782 +05:30 [INF] Executed action JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api) in 5.1509ms
+2026-05-23 23:30:41.784 +05:30 [INF] Start processing HTTP request POST https://api.openai.com/v1/chat/completions
+2026-05-23 23:30:41.786 +05:30 [INF] Executed endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 23:30:41.789 +05:30 [INF] Sending HTTP request POST https://api.openai.com/v1/chat/completions
+2026-05-23 23:30:41.791 +05:30 [INF] HTTP POST /api/telegram/webhook responded 200 in 22.5572 ms
+2026-05-23 23:30:41.815 +05:30 [INF] Request finished HTTP/1.1 POST http://distinct-wildcat-shortcake.ngrok-free.dev/api/telegram/webhook - 200 0 null 63.5998ms
+2026-05-23 23:30:48.528 +05:30 [INF] Received HTTP response headers after 6734.7582ms - 200
+2026-05-23 23:30:48.533 +05:30 [INF] End processing HTTP request after 6749.0025ms - 200
+2026-05-23 23:32:15.689 +05:30 [INF] Update 781896550 processed. Parsed=1, Inserted=0
+2026-05-23 23:32:15.701 +05:30 [INF] Webhook response for UpdateId=781896550: {"Success":true,"UpdateId":781896550,"ParsedJobs":1,"InsertedJobs":0,"Message":"Processed successfully.","Jobs":[{"CompanyName":"LUXOR INTERNATIONAL PVT.LTD","JobLocation":"Noida","Qualification":null,"Department":"Assembly & Moulding","IsITJob":false,"InterviewDate":"2026-05-19","InterviewTime":"08:00 AM","InterviewLocation":"C-42, सेक्टर 80, नोएडा।","ContactNumber":"8076338833","Email":null,"OtherDetail":"LUXOR INTERNATIONAL PVT.LTD भारी संख्या में लड़कों की आवश्यकता है।\n💥 *ARK_Workforce* Contactor se से 💥\nनौकरी का विवरण: Assembly & Moulding\n#कुल रिक्तियां: 100 (boys) नोटः लोकल कैंडिडेट भी आवेदन कर सकते हैं।\n वेतन और लाभ (Salary Details):\nSkilled :- 16868\nSemi Skilled :-15059 \nUnskilled :-13690.\nMoulding Helper:-13690+ 1000 Per Month\nMoulding Operator:- 16500 to 22000/- Per Month\nAttendance Award: 1000/-\nOvertime (OT): 4 hour Per Day\n* सुविधाएँ:बोनस, PF & ESIC,सब्सिडी वाली कैंटीन,\nलीव (EL, RH और CL) 45 दिन बाद !!\nइंटरव्यू : दिनांक: 19/05/2026 समयः सुबह 8:00 बजे\n* स्थान: C-42, सेक्टर 80, नोएडा।\nसंपर्क सूत्र (Contact details):\nLovi Chauhan- 8076338833\nSandeep- 7703893089\nयदि कॉल न लगे तो अपना रिज्यूमे WhatsApp करें: (सावधानी: फ्रॉड से बचें, अपना रिज्यूमे केवल SANDEEP MISHRA को ही दें \nJoin whatsapp channel https://whatsapp.com/channel/0029Va8aXj4LI8YXceFAsY0l","$type":"ParsedJobDto"}],"$type":"WebhookProcessingResultDto"}
+2026-05-23 23:36:40.608 +05:30 [INF] Now listening on: http://localhost:7071
+2026-05-23 23:36:40.701 +05:30 [INF] Now listening on: http://localhost:5071
+2026-05-23 23:36:40.802 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-23 23:36:40.809 +05:30 [INF] Hosting environment: Development
+2026-05-23 23:36:40.811 +05:30 [INF] Content root path: D:\Projects\gitRepo\JobParser_WebApi\src\JobParser.Api
+2026-05-23 23:36:41.346 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:7071/ - null null
+2026-05-23 23:36:41.663 +05:30 [WRN] Failed to determine the https port for redirect.
+2026-05-23 23:36:41.675 +05:30 [INF] Executing endpoint 'HTTP: GET /'
+2026-05-23 23:36:41.709 +05:30 [INF] Executed endpoint 'HTTP: GET /'
+2026-05-23 23:36:41.718 +05:30 [INF] HTTP GET / responded 200 in 65.0142 ms
+2026-05-23 23:36:41.732 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:7071/ - 200 null application/json; charset=utf-8 399.2273ms
+2026-05-23 23:36:57.544 +05:30 [INF] Request starting HTTP/1.1 POST http://distinct-wildcat-shortcake.ngrok-free.dev/api/telegram/webhook - application/json 2927
+2026-05-23 23:36:57.557 +05:30 [INF] Executing endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 23:36:57.599 +05:30 [INF] Route matched with {action = "Receive", controller = "TelegramWebhook"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Receive(JobParser.Application.DTOs.Telegram.TelegramUpdateDto) on controller JobParser.Api.Controllers.TelegramWebhookController (JobParser.Api).
+2026-05-23 23:36:57.711 +05:30 [INF] Processing Telegram update 781896551. Length=869
+2026-05-23 23:36:57.712 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2026-05-23 23:36:57.724 +05:30 [INF] Executed action JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api) in 114.3847ms
+2026-05-23 23:36:57.728 +05:30 [INF] Executed endpoint 'JobParser.Api.Controllers.TelegramWebhookController.Receive (JobParser.Api)'
+2026-05-23 23:36:57.732 +05:30 [INF] HTTP POST /api/telegram/webhook responded 200 in 175.4463 ms
+2026-05-23 23:36:57.737 +05:30 [INF] Request finished HTTP/1.1 POST http://distinct-wildcat-shortcake.ngrok-free.dev/api/telegram/webhook - 200 0 null 193.8597ms
+2026-05-23 23:36:57.762 +05:30 [INF] Start processing HTTP request POST https://api.openai.com/v1/chat/completions
+2026-05-23 23:36:57.779 +05:30 [INF] Sending HTTP request POST https://api.openai.com/v1/chat/completions
+2026-05-23 23:37:03.492 +05:30 [INF] Received HTTP response headers after 5704.0226ms - 200
+2026-05-23 23:37:03.504 +05:30 [INF] End processing HTTP request after 5747.1502ms - 200
+2026-05-23 23:37:25.258 +05:30 [INF] Update 781896551 processed. Parsed=1, Inserted=0
+2026-05-23 23:37:25.270 +05:30 [INF] Webhook response for UpdateId=781896551: {"Success":true,"UpdateId":781896551,"ParsedJobs":1,"InsertedJobs":0,"Message":"Processed successfully.","Jobs":[{"CompanyName":"LUXOR INTERNATIONAL PVT.LTD","JobLocation":"Noida","Qualification":null,"Department":"Assembly & Moulding","IsITJob":false,"InterviewDate":"2026-05-19","InterviewTime":"08:00 AM","InterviewLocation":"C-42, सेक्टर 80, नोएडा।","ContactNumber":"8076338833","Email":null,"OtherDetail":"LUXOR INTERNATIONAL PVT.LTD भारी संख्या में लड़कों की आवश्यकता है।\n💥 *ARK_Workforce* Contactor se से 💥\nनौकरी का विवरण: Assembly & Moulding\n#कुल रिक्तियां: 100 (boys) नोटः लोकल कैंडिडेट भी आवेदन कर सकते हैं।\nवेतन और लाभ (Salary Details):\nSkilled :- 16868\nSemi Skilled :-15059 \nUnskilled :-13690.\nMoulding Helper:-13690+ 1000 Per Month\nMoulding Operator:- 16500 to 22000/- Per Month\nAttendance Award: 1000/-\nOvertime (OT): 4 hour Per Day\n* सुविधाएँ:बोनस, PF & ESIC,सब्सिडी वाली कैंटीन,\nलीव (EL, RH और CL) 45 दिन बाद !!\nइंटरव्यू : दिनांक: 19/05/2026 समयः सुबह 8:00 बजे\n* स्थान: C-42, सेक्टर 80, नोएडा।\nसंपर्क सूत्र (Contact details):\nLovi Chauhan- 8076338833\nSandeep- 7703893089\nयदि कॉल न लगे तो अपना रिज्यूमे WhatsApp करें: (सावधानी: फ्रॉड से बचें, अपना रिज्यूमे केवल SANDEEP MISHRA को ही दें \nJoin whatsapp channel https://whatsapp.com/channel/0029Va8aXj4LI8YXceFAsY0l","$type":"ParsedJobDto"}],"$type":"WebhookProcessingResultDto"}

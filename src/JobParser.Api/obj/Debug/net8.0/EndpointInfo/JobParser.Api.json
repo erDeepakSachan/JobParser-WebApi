@@ -1,0 +1,149 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "JobParser.Api",
+    "version": "1.0"
+  },
+  "paths": {
+    "/": {
+      "get": {
+        "tags": [
+          "JobParser.Api"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StringStringStringStringString<>f__AnonymousType1"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/telegram/webhook": {
+      "post": {
+        "tags": [
+          "TelegramWebhook"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TelegramUpdateDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TelegramUpdateDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/TelegramUpdateDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "StringStringStringStringString<>f__AnonymousType1": {
+        "type": "object",
+        "properties": {
+          "service": {
+            "type": "string",
+            "nullable": true
+          },
+          "status": {
+            "type": "string",
+            "nullable": true
+          },
+          "swagger": {
+            "type": "string",
+            "nullable": true
+          },
+          "health": {
+            "type": "string",
+            "nullable": true
+          },
+          "webhook": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "TelegramChatDto": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "title": {
+            "type": "string",
+            "nullable": true
+          },
+          "username": {
+            "type": "string",
+            "nullable": true
+          },
+          "type": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "TelegramMessageDto": {
+        "type": "object",
+        "properties": {
+          "message_id": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "date": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "chat": {
+            "$ref": "#/components/schemas/TelegramChatDto"
+          },
+          "text": {
+            "type": "string",
+            "nullable": true
+          },
+          "caption": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "TelegramUpdateDto": {
+        "type": "object",
+        "properties": {
+          "update_id": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "message": {
+            "$ref": "#/components/schemas/TelegramMessageDto"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}
