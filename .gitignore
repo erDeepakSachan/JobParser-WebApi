@@ -37,3 +37,4 @@
 /src/JobParser.Infrastructure/bin
 /src/JobParser.Infrastructure/obj
 /tests/JobParser.Tests/bin
+/tests/JobParser.Tests/obj
