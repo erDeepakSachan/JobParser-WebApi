@@ -27,3 +27,13 @@
 /src/JobParser.Api/bin
 /src/JobParser.Api/bin
 *.dll
+/.vs/JobParser
+/src/JobParser.Api/Logs
+/src/JobParser.Api/obj
+/src/JobParser.Application/bin
+/src/JobParser.Application/obj
+/src/JobParser.Domain/bin
+/src/JobParser.Domain/obj
+/src/JobParser.Infrastructure/bin
+/src/JobParser.Infrastructure/obj
+/tests/JobParser.Tests/bin
