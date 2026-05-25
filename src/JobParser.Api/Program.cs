@@ -49,7 +49,7 @@ app.UseAuthorization();
 app.MapControllers();
 app.MapHealthChecks("/health");
 
-app.MapGet("/", () => new
+app.MapPost("/", () => new
 {
     service = "JobParser API",
     status = "Running",
