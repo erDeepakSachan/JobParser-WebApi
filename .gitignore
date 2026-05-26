@@ -39,3 +39,4 @@
 /tests/JobParser.Tests/bin
 /tests/JobParser.Tests/obj
 /.vs
+src/JobParser.Api/.env
