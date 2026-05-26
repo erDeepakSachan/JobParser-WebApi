@@ -1,5 +1,9 @@
 using JobParser.Infrastructure;
 using Serilog;
+using DotNetEnv;
+
+// Load .env into environment variables so builder.Configuration can read them
+Env.Load();
 
 var builder = WebApplication.CreateBuilder(args);
 

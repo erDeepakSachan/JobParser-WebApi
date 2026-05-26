@@ -44,17 +44,19 @@ public sealed class JobDetailsRepository : IJobDetailsRepository
 
     private async Task<bool> InsertAsync(JobDetail job, CancellationToken cancellationToken)
     {
-        // First, resolve JobLocationID
-        const string lookupSql = "SELECT JobLocationID FROM joblocation WHERE Location = @JobLocationName LIMIT 1";
-        await using var connection = new MySqlConnection(_connectionString);
-        await connection.OpenAsync(cancellationToken);
-        await using var lookupCmd = new MySqlCommand(lookupSql, connection);
-        lookupCmd.Parameters.AddWithValue("@JobLocationName", job.JobLocation);
+        try
+        {
+            // First, resolve JobLocationID
+            const string lookupSql = "SELECT JobLocationID FROM joblocation WHERE Location = @JobLocationName LIMIT 1";
+            await using var connection = new MySqlConnection(_connectionString);
+            await connection.OpenAsync(cancellationToken);
+            await using var lookupCmd = new MySqlCommand(lookupSql, connection);
+            lookupCmd.Parameters.AddWithValue("@JobLocationName", job.JobLocation);
 
-        var locationIdObj = await lookupCmd.ExecuteScalarAsync(cancellationToken);
-        int? locationId = locationIdObj != null ? Convert.ToInt32(locationIdObj) : (int?)null;
+            var locationIdObj = await lookupCmd.ExecuteScalarAsync(cancellationToken);
+            int? locationId = locationIdObj != null ? Convert.ToInt32(locationIdObj) : (int?)null;
 
-        const string insertSql = """
+            const string insertSql = """
                                         INSERT INTO jobdetails 
                                         (CompanyName, JobLocationID, Qualification, Department, IsITJob, 
                                          InterviewDate, InterviewTime, InterviewLocation, ContactNumber, 
@@ -65,10 +67,6 @@ public sealed class JobDetailsRepository : IJobDetailsRepository
                                          @Email, @OtherDetail);
                                         SELECT LAST_INSERT_ID();
                                         """;
-
-        try
-        {
-
 
 
             await using var command = new MySqlCommand(insertSql, connection);
