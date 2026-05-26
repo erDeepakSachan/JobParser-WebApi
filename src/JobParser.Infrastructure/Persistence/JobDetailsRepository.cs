@@ -79,7 +79,11 @@ public sealed class JobDetailsRepository : IJobDetailsRepository
             command.Parameters.AddWithValue("@Qualification", (object?)job.Qualification ?? DBNull.Value);
             command.Parameters.AddWithValue("@Department", (object?)job.Department ?? DBNull.Value);
             command.Parameters.AddWithValue("@IsITJob", job.IsITJob);
-            command.Parameters.AddWithValue("@InterviewDate", (object?)job.InterviewDate ?? DBNull.Value);
+            // If InterviewDate is not null, replace its time with 16:00:00
+            var interviewDateWithTime = job.InterviewDate.HasValue
+                ? job.InterviewDate.Value.Date.AddHours(16)   // sets time to 16:00:00
+                : (DateTime?)null;
+            command.Parameters.AddWithValue("@InterviewDate", (object?)interviewDateWithTime ?? DBNull.Value);
             command.Parameters.AddWithValue("@InterviewTime", (object?)job.InterviewTime ?? DBNull.Value);
             command.Parameters.AddWithValue("@InterviewLocation", (object?)job.InterviewLocation ?? DBNull.Value);
             command.Parameters.AddWithValue("@ContactNumber", (object?)job.ContactNumber ?? DBNull.Value);

@@ -14,8 +14,8 @@ Task:
 Hard rules:
 1. Email: if unavailable => null
 2. Company will be in first 3 lines mostly(Ex: Hiring for XYZ company, XYZ company is hiring, Job opening at XYZ, etc.)
-3. InterviewTime: if missing => "08:00 AM"
-4. InterviewDate: if unavailable or old date => Please put next day date.
+3. InterviewTime: if missing => "08:00"
+4. InterviewDate: DateTime if unavailable or old date => Please put next day date. 
 5. InterviewLocation:
    - use company address if found
    - otherwise "Please call to given number to know the address"
@@ -43,7 +43,7 @@ Required output JSON schema:
       "CompanyName": "string or null",
       "JobLocation": "string or null",
       "Qualification": "string or null",
-      "Department": "string or null",
+      "Department": "if not found => Production",
       "IsITJob": true,
       "InterviewDate": "yyyy-MM-dd or null",
       "InterviewTime": "string",
